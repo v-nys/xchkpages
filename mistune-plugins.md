@@ -30,7 +30,7 @@
 # test
 
 ![testafbeelding elders](https://creativecommons.nl/wp-content/uploads/2019/08/heart.black_-300x300.png)
-![testafbeelding](♯♯ pagerepo frame1.png ♯♯)
+![testafbeelding]({% pagerepo frame1.png %})
 
 # conclusies test
 
@@ -39,5 +39,10 @@
   * vermoedelijk kan de tekst niet parsen als verwacht → misschien beter regel *vroeger* toepassen, dus via `insert(0,...)`?
     * gevolg is dat %} op einde niet meer op de verwachte manier herkend wordt; lijkt nu deel van `group(1)`?
     * append betekent dat regel pas laat wordt toegepast... maar dat is wrs. niet de bedoeling.
-    * misschien te maken met dubbel gebruik `%`?
+    * misschien te maken met dubbel gebruik `%` of `{`?
+      * lijkt erop van niet: aanpassing naar ♯♯ heeft geen effect
+  * `parse_pagerepo` wordt opgeroepen en dan moet ik parsen → code voor verschillende soorten links staat in `parse_auto_link`, `parse_std_link`,...
+  * deze gaan niet recursief te werk
 * `pagerepo_image` zou mogelijk zijn, maar lelijk...
+* zal er voorlopig maar mee doorgaan, zie issue 21 op github
+
