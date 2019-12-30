@@ -17,3 +17,12 @@
 * werking van `parse_url_link` en `parse_strikethrough` suggereert dat eerste resultaat soort token is en tweede (gerenderde) token zelf
 * de `parse_...` wordt waarschijnlijk door de parser toegepast, die gelinkt is aan een renderer
   * zie hiervoor `parse_strikethrough` en `render_html_strikethrough` → deze laatste wordt geregistreerd in een HTML renderer
+
+# onderdelen oplossing
+
+* ook registreren
+* pattern wordt een regex van de vorm {% pagerepo ... %}
+* `parse_pagerepo` krijgt match en state als argumenten, mag wrs. state negeren en match is de groep die overeenstemt met ... boven
+* index zoeken hoeft wrs niet, mss liefst zelfs vooraan zetten via `md.inline.rules.insert(0,'pagerepo')`
+  * probeer ook `append` en test uit in een inline stukje code?
+* tweede deel van `parse_pagerepo` wordt wrs. f'<pagerepo_url>/m.group(1)'
