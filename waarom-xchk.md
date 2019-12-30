@@ -15,7 +15,7 @@ xchk lost deze problemen (hopelijk) op door te vertrekken van volgende principes
 
 # Multiple choice opdracht
 
-Je hebt een repository voor deze cursus aangemaakt. Plaats daarin een bestand, `waarom-xchk.txt`, met op elke regel de letter van je keuze en niets anders.
+{% instructions %}
 
 ## vraag 1
 

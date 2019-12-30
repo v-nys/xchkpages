@@ -9,7 +9,8 @@ Een voorbeeld:
 TODO
 
 # Opdracht terminologie
-Maak een bestand, `de-kenniskaart.txt`. Schrijf hierin één antwoord per regel.
+
+{% instructions %}
 
 ## Vraag 1
 Geef een ander woord voor "afhankelijkheid" (enkelvoud).
