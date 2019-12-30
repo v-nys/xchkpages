@@ -12,8 +12,8 @@
 
 # gemeenschappelijke aspecten strikethrough en url
 
-* hebben beide een regex om gebruik van de plugin te herkennen, aangeduid via volgende regels:
-
-```
-md.inline.register_rule('<naam van de plugin dus strikethrough of url_link>', <corresponderende regex>, <parsemethode>)
-```
+* hebben beide een regex om gebruik van de plugin te herkennen, aangeduid via volgende regels: `md.inline.register_rule('<naam van de plugin dus strikethrough of url_link>', <corresponderende regex>, <parsemethode>)`
+* beide passen `md.inline.rules.append` toe, lijkt erop dat regels in bepaalde volgorde worden toegepast op basis van strikethrough
+* werking van `parse_url_link` en `parse_strikethrough` suggereert dat eerste resultaat soort token is en tweede (gerenderde) token zelf
+* de `parse_...` wordt waarschijnlijk door de parser toegepast, die gelinkt is aan een renderer
+  * zie hiervoor `parse_strikethrough` en `render_html_strikethrough` → deze laatste wordt geregistreerd in een HTML renderer
