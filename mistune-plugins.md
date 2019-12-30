@@ -26,3 +26,7 @@
 * index zoeken hoeft wrs niet, mss liefst zelfs vooraan zetten via `md.inline.rules.insert(0,'pagerepo')`
   * probeer ook `append` en test uit in een inline stukje code?
 * tweede deel van `parse_pagerepo` wordt wrs. f'<pagerepo_url>/m.group(1)'
+
+# test
+
+![testafbeelding]({% pagerepo frame1.png %})
