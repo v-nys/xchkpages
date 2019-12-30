@@ -30,4 +30,14 @@
 # test
 
 ![testafbeelding elders](https://creativecommons.nl/wp-content/uploads/2019/08/heart.black_-300x300.png)
-![testafbeelding]({% pagerepo frame1.png %})
+![testafbeelding](♯♯ pagerepo frame1.png ♯♯)
+
+# conclusies test
+
+* met append *ziet* resultaat er wel exact uit zoals de juiste syntax, maar rendert niet juist
+  * waarom?
+  * vermoedelijk kan de tekst niet parsen als verwacht → misschien beter regel *vroeger* toepassen, dus via `insert(0,...)`?
+    * gevolg is dat %} op einde niet meer op de verwachte manier herkend wordt; lijkt nu deel van `group(1)`?
+    * append betekent dat regel pas laat wordt toegepast... maar dat is wrs. niet de bedoeling.
+    * misschien te maken met dubbel gebruik `%`?
+* `pagerepo_image` zou mogelijk zijn, maar lelijk...
