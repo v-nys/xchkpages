@@ -13,10 +13,10 @@ TODO
 {% instructions %}
 
 ## Vraag 1
-Geef een ander woord voor "afhankelijkheid" (enkelvoud).
+Geef een ander woord voor "afhankelijkheid" (enkelvoud, kleine letters, geen aanhalingstekens rond plaatsen).
 
 ## Vraag 2
-Geef een ander woord voor "knoop" (in de context van de kenniskaart).
+Geef een ander woord voor "knoop" (in de context van de kenniskaart, kleine letters, geen aanhalingstekens rond plaatsen).
 
 ## Vraag 3
-Moet je, voor je een nieuwe knoop behandelt, één inkomende edge of alle inkomende edges behandeld hebben? Antwoord "een" of "allemaal" (zonder aanhalingstekens).
+Moet je, voor je een nieuwe knoop behandelt, één inkomende edge of alle inkomende edges behandeld hebben? Antwoord "een" of "allemaal" (kleine letters, geen aanhalingstekens rond plaatsen).
