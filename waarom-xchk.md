@@ -20,17 +20,20 @@ xchk lost deze problemen (hopelijk) op door te vertrekken van volgende principes
 ## vraag 1
 
 Is kennis lineair gestructureerd?
-A. ja
-B. nee
+
+* A. ja
+* B. nee
 
 ## vraag 2
 
 Weten studenten altijd hoe ze het materiaal moeten benaderen?
-A. ja
-B. nee
+
+* A. ja
+* B. nee
 
 ## vraag 3
 
 Make lectoren soms assumpties over voorkennis?
-A. ja
-B. nee
+
+* A. ja
+* B. nee
