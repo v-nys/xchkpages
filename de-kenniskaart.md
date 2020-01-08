@@ -15,7 +15,7 @@ Vooraleer je de stelling van Pythagoras kan toepassen, moet je drie een aantal c
 
 Dat zou je op een kenniskaart als volgt voorstellen:
 
-![dependencies stelling van pythagoras]{% pagerepo dependencies-pythagoras.png %}
+![dependencies stelling van pythagoras]({% pagerepo dependencies-pythagoras.png %})
 
 # Opdracht terminologie
 
