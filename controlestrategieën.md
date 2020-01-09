@@ -4,6 +4,13 @@ Opdrachten zijn niet *one size fits all*. We geven niet alleen multiple choice, 
 
 Controlestrategieën kunnen vele vormen aannemen. Ze gaan van simpel (bv. controleer of de file van de student 100% identiek is aan de modeloplossing) tot complex (bv. controleer of een inzending equivalent is met een inzending die in het verleden is goedgekeurd na het toepassen van een reeks compilertransformaties). Ze genereren ook feedbackboodschappen.
 
+Ze kunnen verschillende resultaten opleveren:
+
+* geslaagd voor de controle
+* niet geslaagd voor de controle
+* nog niet beslist
+* niet bereikt (omdat een eerdere oefening) geweigerd is en het geen zin had deze te controleren
+
 # Opdracht
 
 Test eens uit met een SQL file! Veronderstel dat gevraagd wordt om een script dat een tabel `Cursussen` aanmaakt, met één kolom van type `VARCHAR(100)` genaamd `Titel`, karakterset UTF8MB4, verplicht ingevuld. In die tabel worden drie cursussen geplaatst: Programmeren, Databanken en Webtechnologie.
