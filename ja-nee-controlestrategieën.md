@@ -39,5 +39,7 @@ Als je één cursus wil aanduiden als vereiste voorkennis voor een andere cursus
 
 Onderstaande figuur illustreert correct hoe je Programmeren 2 afhankelijk maakt van Programmeren 1.
 
+![links cursussen]({% pagerepo links-cursussen.png %})
+
 * A. ja
 * B. nee
