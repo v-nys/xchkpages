@@ -1,0 +1,1 @@
+# Bestanden negeren met .gitignore

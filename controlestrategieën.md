@@ -21,11 +21,12 @@ Verder gelden volgende restricties:
 Aangezien dit geen cursus MySQL is, krijg je meteen de inhoud van de file:
 
 ```
+CREATE DATABASE ModernWays;
 USE ModernWays;
 CREATE TABLE Cursussen (
 Titel VARCHAR(100) CHAR SET UTF8MB4 NOT NULL
 );
-INSERT INTO CURSUSSEN (Titel)
+INSERT INTO Cursussen (Titel)
 VALUES
 ('Programmeren'),
 ('Databanken'),
@@ -33,3 +34,5 @@ VALUES
 ```
 
 Voor je deze file checkt: introduceer eens een fout. Haal er bijvoorbeeld Databanken uit, verander het datatype van `Titel` van `VARCHAR` naar `CHAR` of iets in die aard. Probeer uit met de fout en je zal merken dat er zinvolle feedback gegeven wordt. Probeer uit zonder fout en je mag naar de volgende pagina.
+
+Let ook op: om deze oefening te checken moet je een ander batch type aanduiden, namelijk het batchtype dat melding maakt van ModernWays en ModernWaysBL.
