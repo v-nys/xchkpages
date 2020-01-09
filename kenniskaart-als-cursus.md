@@ -28,5 +28,5 @@ Welke elementen behoren niet tot een specifieke cursus?
 Wanneer kan je aan een bepaalde node?
 
 * A. als je alle vereisten hebt afgerond in alle kenniskaarten waarop de node aanwezig is
-* B. als je alle vereisten hebt afgerond in één kenniskaarten waarop de node aanwezig is
+* B. als je alle vereisten hebt afgerond in één kenniskaart waarop de node aanwezig is
 * C. hangt af van de node
