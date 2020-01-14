@@ -2,7 +2,7 @@
 
 Opdrachten zijn niet *one size fits all*. We geven niet alleen multiple choice, of alleen programmeeropdrachten, of SQL scripts. We geven wel technische vakken, dus meestal is er wel een duidelijk onderscheid tussen juiste en foute antwoorden. Een controlestrategie is een probleemspecifieke manier om te controleren of een bepaalde opdracht juist of fout is (of nagekeken moet worden door de lector).
 
-Controlestrategieën hebben twee takken: een check die een oefening kan afkeuren en check die een oefening kan. Met andere woorden, eerst wordt er een testen uitgevoerd en als die `True` antwoordt, wordt de oefening afgekeurd. Daarna wordt een andere test uitgevoerd en als die `True` antwoordt, wordt de oefening goedgekeurd.
+Controlestrategieën hebben twee takken: een check die een oefening kan afkeuren en check die een oefening kan aanvaarden. Met andere woorden, eerst wordt er een testen uitgevoerd en als die `True` antwoordt, wordt de oefening afgekeurd. Daarna wordt een andere test uitgevoerd en als die `True` antwoordt, wordt de oefening goedgekeurd.
 
 .. important::
 
