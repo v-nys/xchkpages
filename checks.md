@@ -13,6 +13,4 @@ Twee soorten checks zijn ingebouwd in het systeem:
 Verdere checks kunnen toegevoegd worden, maar maken geen deel uit van de kern van het systeem.
 
 # "Opdracht"
-De opdracht bij deze knoop illustreert het gebruik van de nulvoorwaarde.
-
-{% instructions %}
+Bij deze knoop hoort geen echte opdracht. Je moet hem wel laten controleren, maar de controle zal sowieso slagen.
