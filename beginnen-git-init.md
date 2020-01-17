@@ -13,8 +13,15 @@ Deze eerste metadata staat in een map met als naam `.git`, inclusief de punt voo
 [^2]: Eigenlijk maak je gebruik van de shell, waartoe je toegang hebt via de terminal. Technisch verschilletje dat hier verder niet zo belangrijk is.
 
 # Opdracht
-Beantwoord volgende vragen met één antwoord per regel.
+Maak een bestand met als naam `beginnen-git-init.txt`. Beantwoord in dat bestand volgende vragen met één antwoord per regel.
 
 1. Wat is de korte naam (vier letters) voor een project waarvoor we Git gebruiken?
 2. Welk commando moet je ingeven om een gewone map te voorzien van de nodige metadata voor versiebeheer?
 3. Hoe heet de map die de metadata bevat met je projectgeschiedenis?
+
+Voer vervolgens uit in je shell (dus via Powershell of Terminal), in je Git repository:
+
+1. `git add beginnen-git-init.txt`
+2. `git commit -m "Antwoorden git init"`
+3. `git push`
+4. Ga tenslotte naar "Controleer oefeningen" op deze website, kies je Git repository voor dit vak, kies het batchtype "voor oefeningen zonder side effects", duid de oefening "Beginnen: git init" aan en klik op "checken".
