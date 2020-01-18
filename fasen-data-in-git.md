@@ -32,7 +32,7 @@ De project history is alle data die definitief in je logboek is opgenomen. In ee
 ## Opdracht
 Maak een bestand met als naam fasen-data-in-git.txt. Beantwoord in dat bestand volgende vragen met één antwoord per regel.
 
-* Hoe heet de "plaats" die overeenstemt met nota's in potlood? (twee woorden)
+* Hoe heet de "plaats" die overeenstemt met nota's in potlood? (twee woorden, allemaal kleine letters)
 * Staat er in de verborgen map `.git` iets over wijzigingen in de working directory? (ja/nee)
 
 Voer vervolgens uit in je shell (dus via Powershell of Terminal), in je Git repository:
