@@ -20,6 +20,9 @@ Om wijzigingen "in potlood" om te zetten naar wijzigingen "in pen", gebruik je h
 
 Wanneer je een nota in je logboek zet, moet je ook beschrijven wat de gebundelde wijzigingen doen. Als je `git commit` zo uitvoert, wordt er een text editor geopend waarin je dit bericht kan intypen. Dit is vaak wat onhandig, dus je kan ook gebruik maken van `-m` en meteen daarna het bericht tussen aanhalingstekens plaatsen. Bijvoorbeeld: `git commit -m "Knop voor password reset en code achter de schermen toegevoegd."`
 
+## Overzicht
+TODO: figuur met drie locaties en commando's voor overgang tonen
+
 # Opdracht
 Maak een tekstbestand aan met daarin exact de tekst (zonder aanhalingstekens) "de kat krabt de krollen van de trap!"
 
