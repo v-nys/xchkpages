@@ -34,6 +34,6 @@
           #:end-angle pi
           #:x-adjust-label 60))])
   (call-with-output-file
-      "git-stages-basics.svg"
-    (λ (o) (display (convert drawing 'svg-bytes) o))
+      "git-stages-basics.png"
+    (λ (o) (display (convert drawing 'png-bytes) o))
     #:exists 'replace))
