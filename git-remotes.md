@@ -30,5 +30,23 @@ Vaak is er een duidelijke "master copy" van het project. Dit is bijvoorbeeld de 
    Deze afspraak is wijdverspreid. Als je bijvoorbeeld een eigen kopie maakt van een bestaande repository, zal die bestaande repository voor jou automatisch `origin` heten.
 
 # Opdracht
-
 {% instructions %}
+
+## vraag 1
+Ik kopieer via Windows explorer mijn volledige git repository van PC A naar PC B. Welke repository is remote van welke andere repository?
+
+A. alleen A is remote van B
+B. alleen B is remote van A
+C. A en B zijn remotes van elkaar
+D. geen van beide is remote van de ander
+
+## vraag 2
+Zie onderstaande figuur. Mogen Git repositories op deze manier naar elkaar verwijzen?
+
+A. ja
+B. nee, want `B` en `C` mogen niet allebei de naam "origin" gebruiken
+C. nee, want als `C` naar `A` verwijst, mag `A` niet terug verwijzen naar `C`
+D. nee, want `B` mag niet naar `A` *en* `C` verwijzen
+E. nee, om meerdere redenen
+
+![Voorbeeldopstelling remotes]({% pagerepo remotes-quiz.png %})
