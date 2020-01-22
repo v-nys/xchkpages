@@ -20,7 +20,7 @@ Een **remote** is een kopie waarvan onze eigen Git repository op de hoogte is. E
 ## Voorbeeld
 Onderstaande figuur toont drie repositories. Wij zullen spreken over `A`, `B` en `C`. `B` en `C` hebben `A` als remote, maar `A` heeft geen enkele remote. Verder gebruikt `B` niet de naam "A" om te verwijzen naar `A`, maar wel `origin`. `C`, daarentegen, gebruikt voor `A` de naam "MasterCopy". Dat kan omdat de naam van een remote niet bij de remote zelf hoort. `B` en `C` weten niets over elkaar, dus het zou perfect mogelijk zijn om `B` ook naar `A` te laten verwijzen als "MasterCopy" (of `C` naar `A` als "origin").
 
-![drie repositories in verbinding]({% pagerepo remotes-illustration.png %})
+![drie repositories in verbinding]({% pagerepo remotes-example.png %})
 
 ## Speciale remote: `origin`
 Vaak is er een duidelijke "master copy" van het project. Dit is bijvoorbeeld de repository op de server van het bedrijf waarin je werkt. **Zuiver technisch bekeken is dit gewoon een remote zoals een andere**, maar ze speelt een bijzondere rol. Het is de plaats waar onze code oorspronkelijk vandaan komt en normaal ook de plaats waar we onze eigen updates terug naartoe zullen sturen. Deze remote wordt volgens afspraak `origin` genoemd.
