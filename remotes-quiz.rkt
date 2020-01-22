@@ -2,6 +2,7 @@
 (require pict)
 (require file/convertible)
 
+;; FIXME: gepinde pijl wordt nog steeds geknipt, niet zeker waarom
 (let* ([named-repo (λ (n) (cc-superimpose (cloud 100 75) (scale (text n) 2)))]
        [A (named-repo "A")]
        [B (named-repo "B")]
