@@ -28,3 +28,7 @@ Vaak is er een duidelijke "master copy" van het project. Dit is bijvoorbeeld de 
 .. tip::
 
    Deze afspraak is wijdverspreid. Als je bijvoorbeeld een eigen kopie maakt van een bestaande repository, zal die bestaande repository voor jou automatisch `origin` heten.
+
+# Opdracht
+
+{% instructions %}
