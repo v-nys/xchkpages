@@ -18,7 +18,7 @@ Een **remote** is een kopie waarvan onze eigen Git repository op de hoogte is. E
    Niet elke kopie van een repository is een remote van die repository. Als B en C allebei gestart zijn als een kopie van A, kan je zeggen dat B en C kopieën van elkaar zijn, maar ze zijn daarom niet op de hoogte van elkaars bestaan. Met andere woorden, B en C zijn kopieën, maar zijn geen remotes van elkaar.
 
 ## Voorbeeld
-Onderstaande figuur toont drie repositories. Wij zullen spreken over `A`, `B` en `C`. `B` en `C` hebben `A` als remote, maar `A` heeft geen enkele remote. Verder gebruikt `B` niet de naam "A" om te verwijzen naar `A`, maar wel `origin`. `C`, daarentegen, gebruikt voor `A` de naam "MasterCopy". Dat kan omdat de naam van een remote niet bij de remote zelf hoort. `B` en `C` weten niets over elkaar, dus het zou perfect mogelijk zijn om `B` ook naar `A` te laten verwijzen als "MasterCopy" (of `C` naar `A` als "origin").
+Onderstaande figuur toont drie repositories. Wij zullen spreken over `A`, `B` en `C`. `B` en `C` hebben `A` als remote, maar `A` heeft geen enkele remote. Verder gebruikt `B` niet de naam "A" om te verwijzen naar `A`, maar wel "origin". `C`, daarentegen, gebruikt voor `A` de naam "MasterCopy". Dat kan omdat de naam van een remote niet bij de remote zelf hoort. `B` en `C` weten niets over elkaar, dus het zou perfect mogelijk zijn om `B` ook naar `A` te laten verwijzen als "MasterCopy" (of `C` naar `A` als "origin").
 
 ![drie repositories in verbinding]({% pagerepo remotes-example.png %})
 
