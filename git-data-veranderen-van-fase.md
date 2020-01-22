@@ -24,9 +24,10 @@ Wanneer je een nota in je logboek zet, moet je ook beschrijven wat de gebundelde
 ![overzicht stappen]({% pagerepo git-stages-basics.png %})
 
 # Opdracht
-Maak een tekstbestand aan met daarin exact de tekst (zonder aanhalingstekens) "de kat krabt de krollen van de trap!" Doorloop zelf de nodige stappen om het bestand in je projectgeschiedenis te plaatsen en voer daarna `git push` uit.
+Maak een tekstbestand aan met daarin exact de tekst (zonder aanhalingstekens) "de kat krabt de krollen van de trap!" Doorloop zelf de nodige stappen om het bestand in je projectgeschiedenis te plaatsen en voer daarna `git push` uit.[^2]
 
 {% instructions %}
 
 # Voetnoten
 [^1]: Hier zijn uitzonderingen op, maar ze vallen goed mee. Onthoud het voorlopig zoals het op deze pagina staat.
+[^2]: Dit laatste commando heeft te maken met een ander aspect van Git dat later aan bod komt.
