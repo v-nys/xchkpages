@@ -94,8 +94,7 @@ Indien je je bestand zou hernoemen naar `.gitignore`, zou het volgende zaken doe
 
 * alle mappen `cache` negeren, waar ze ook staan in de structuur
 * alle `.pdf`-bestanden negeren, waar ze ook staan in de structuur
-* het bestand `1C.md` negeren
-* het bestand `2Ba.md` uit `submap3A` negeren, maar niet dat uit `submap2B`
+* het bestand `1C.md` negeren (waar het ook staat in de bestandenstructuur)
 
 .. warning::
 
