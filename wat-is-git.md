@@ -14,6 +14,10 @@ Enkele dingen die zonder versiebeheer heel lastig zijn en met versiebeheer erg e
 
    Meestal bestaat dat project dat je met Git beheert uit code, maar dat hoeft niet. Je kan er vanalles mee bijhouden, van tekeningen in Inkscape tot recepten.
 
+.. danger::
+
+   Alle informatie vanaf dit punt is getest met Git 2.20. Verder wordt verondersteld dat je geen defaultinstellingen hebt aangepast!
+
 # Opdracht
 
 1. Navigeer in PowerShell of Terminal via `cd` naar de map die je hebt ingesteld voor het vak dat je nu aan het volgen bent.

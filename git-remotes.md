@@ -29,6 +29,10 @@ Vaak is er een duidelijke "master copy" van het project. Dit is bijvoorbeeld de 
 
    Deze afspraak is wijdverspreid. Als je bijvoorbeeld een eigen kopie maakt van een bestaande repository, zal die bestaande repository voor jou automatisch `origin` heten.
 
+.. danger::
+
+   Wij gaan er voorlopig van uit dat de repository op jouw machine maximum één remote heeft en dat deze origin heet. Zo krijgen we je sneller productief. We zullen het uitdrukkelijk zeggen wanneer deze veronderstelling niet meer van toepassing is.
+
 # Opdracht
 {% instructions %}
 
