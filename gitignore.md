@@ -3,13 +3,17 @@
 ## basisprincipe
 Je wil niet alle data die je produceert bijhouden in versiebeheer. Enkele voorbeelden van bestanden die je niet wil bijhouden:
 
-* backups die automatisch gemaakt worden door je text editor
 * tijdelijke bestanden die aangemaakt worden wanneer je een programma compileert
-* configuratiebestanden specifiek voor jouw systeem
+* bestanden die je genereert uit bronbestanden
+* bestanden die specifiek zijn voor jouw systeem[^1]
 
-Omdat er in bijna elk project wel van die bestanden zijn, staat Git toe om ze uit te sluiten van versiebeheer. Dat betekent dat ze als het ware onzichtbaar zijn: ze kunnen alleen bestaan in de working directory en worden niet vermeld in berichten gegenereerd door Git.[^1]
+Omdat er in bijna elk project wel van die bestanden zijn, staat Git toe om ze uit te sluiten van versiebeheer. Dat betekent dat ze als het ware onzichtbaar zijn: ze kunnen alleen bestaan in de working directory en worden niet vermeld in berichten gegenereerd door Git.[^2]
 
 Om een bestand te negeren, moet je eerst een bestand `.gitignore` aanmaken. Daarin plaats je dan per regel de naam van een bestand dat niet meer zichtbaar mag zijn. Je kan ook namen van mappen schrijven (om bestanden in die mappen te negeren).
+
+.. tip::
+
+   Wij zullen voorlopig `.gitignore` altijd in de root plaatsen. Je kan ook `.gitignore`-bestanden in submappen plaatsen, maar dat is niet zonder gevolgen. Leer eerst de basis.
 
 .. warning::
 
@@ -30,14 +34,11 @@ Als je dan de files `a.txt`, `b.sql`, `c.html`, `d.svg`, `cache/urls.txt`, `cach
 
    `.gitignore` sluit alleen nieuwe bestanden uit! Als `a.txt` bijvoorbeeld al deel uitmaakte van de projectgeschiedenis *voor* `.gitignore` is aangemaakt, blijft `a.txt` deel uitmaken van de projectgeschiedenis en kan je wijzigingen aan `a.txt` stagen en committen alsof er geen `.gitignore` was.
 
-**TODO: nog verder aanvullen op basis van [officiële docs](https://git-scm.com/docs/gitignore), maar beperk tot essentie**
-
 ## folderstructuur
-**TODO: meer detail over werking**
-Als je hetzelfde bestand `.gitignore` hebt als tevoren en je hebt volgende bestandenstructuur:
+Normaal gesproken[^2] matcht een patroon op elk niveau in de bestandenstructuur. Het maakt dus niet uit of een te negeren bestand in de root staat of in een submap. Als je hetzelfde bestand `.gitignore` hebt als tevoren en je hebt volgende bestandenstructuur:
 
 ```
-.
+root
 ├── a.txt
 ├── bin
 │   ├── a.txt
@@ -55,9 +56,10 @@ Als je hetzelfde bestand `.gitignore` hebt als tevoren en je hebt volgende besta
 
 Dan kan je `c.html` en `f.pkg` (in de map `bin/pkg`) stagen en committen.
 
-## wildcards
-**TODO: meer detail over werking**
-
+## simpele wildcards
+Soms wil je hele groepen bestanden negeren. Je hebt misschien een reeks `.png`-bestanden die gegenereerd worden uit `.svg`-bestanden. Dan is het een slecht idee de `.png`-bestanden in versiebeheer te plaatsen. In de plaats daarvan kan je beter alle `.png`-bestanden in dat project negeren. Om dit te doen, schrijf je "*.png" (zonder aanhalingstekens). Een "*" matcht met alles behalve het karakter "/". Je kan ook één karakter matchen (behalve de "/") met het karakter "?".
 
 # Voetnoten
-[^1]: Het is niet absoluut onmogelijk, maar je ziet de uitzonderingen later.
+[^1]: Er zijn andere (aangeraden) manieren om deze te negeren dan een `.gitignore` in je project, maar we willen niet afdwalen.
+[^2]: Het is niet absoluut onmogelijk, maar je ziet de uitzonderingen later.
+[^3]: Je kan dit gedrag veranderen, maar we willen niet afdwalen.
