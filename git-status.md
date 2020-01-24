@@ -18,5 +18,23 @@ Wanneer je dit commando uitvoert in je Git repository, kan je verschillende bood
 
    Het kan perfect zijn dat eenzelfde file data bevat die al in de staging area staat en data die alleen maar in de working directory staat. Dezelfde filenaam kan dus verschijnen in verschillende boodschappen van `git status`!
 
+.. tip::
+
+   Git gebruikt een kleurcodering om aan te geven welke wijzigingen in welke fase staan. Indien je kleurenblind bent, kan het de moeite zijn de gebruikte kleuren te veranderen. Ga na via een zoekmachine hoe je de kleuren van Git aanpast voor jouw shell.
+
 # Opdracht
-TODO: vraag paar aanpassingen te doen en betekenis van elke kleur af te leiden; vereist misschien wel wat extra advies voor wie rood-groen kleurenblind is. zie [hier](https://ericasadun.com/2018/07/19/are-you-red-green-color-blind-how-do-you-handle-git-color-coding/)?
+{% instructions %}
+
+1. Controleer dat er geen enkele wijziging aanwezig is in je working directory of staging area.
+2. Maak een tekstbestand en zet daarin alleen de tekst "test" (zonder aanhalingstekens).
+3. Sla het bestand op.
+4. Verlaat het bestand en vraag een overzicht van je wijzigingen. **Bekijk dit en vergelijk met de uitleg op deze pagina.**
+5. Voer uit: `git add --all`.
+6. Open je bestand opnieuw.
+7. Zet op de tweede regel ook "test" (zonder aanhalingstekens).
+9. Sla het bestand op.
+10. Verlaat het bestand en vraag een overzicht van je wijzigingen. **Bekijk dit en vergelijk met de uitleg op deze pagina.**
+11. Kopieer (enkel!) de output, dus niet de regel die je net hebt getypt maar wel alles wat daarop volgt, vanaf het eerste geprinte karakter.
+12. Sla de output op in je tekstbestand (overschrijf wat er al stond).
+13. Stage en commit je tekstbestand.
+14. Voer uit: `git push`.
