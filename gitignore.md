@@ -35,7 +35,7 @@ Als je dan de files `a.txt`, `b.sql`, `c.html`, `d.svg`, `cache/urls.txt`, `cach
    `.gitignore` sluit alleen nieuwe bestanden uit! Als `a.txt` bijvoorbeeld al deel uitmaakte van de projectgeschiedenis *voor* `.gitignore` is aangemaakt, blijft `a.txt` deel uitmaken van de projectgeschiedenis en kan je wijzigingen aan `a.txt` stagen en committen alsof er geen `.gitignore` was.
 
 ## folderstructuur
-Normaal gesproken[^2] matcht een patroon op elk niveau in de bestandenstructuur. Het maakt dus niet uit of een te negeren bestand in de root staat of in een submap. Als je hetzelfde bestand `.gitignore` hebt als tevoren en je hebt volgende bestandenstructuur:
+Normaal gesproken[^3] matcht een patroon op elk niveau in de bestandenstructuur. Het maakt dus niet uit of een te negeren bestand in de root staat of in een submap. Als je hetzelfde bestand `.gitignore` hebt als tevoren en je hebt volgende bestandenstructuur:
 
 ```
 root
