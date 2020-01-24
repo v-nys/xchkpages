@@ -9,6 +9,10 @@ Om deze metadata aan te maken, heb je het commando `git init` nodig. Je voert he
 
 Deze eerste metadata staat in een map met als naam `.git`, inclusief de punt vooraan. Op de meeste systemen is deze map standaard onzichtbaar en dat is een goede zaak! Je zou als beginner **nooit** zaken in deze map moeten wijzigen. Als je deze map beschadigt, ben je mogelijk je projectgeschiedenis kwijt. Als je ze verwijdert, heb je terug een doodnormale map.
 
+.. important::
+
+   De map waarin je `git init` uitvoert wordt vaak de **root** (Engels voor "wortel") genoemd. Wij zullen deze term ook soms gebruiken.
+
 [^1]: "Metadata" betekent "data die over andere data gaat". Deze uitdrukking is niet specifiek voor Git. Die "andere data" waarover de metadata gaat bestaat hier uit de bestanden in jouw project. De metadata houdt bij welke wijzigingen hebben plaatsgevonden, wanneer,...
 [^2]: Eigenlijk maak je gebruik van de shell, waartoe je toegang hebt via de terminal. Technisch verschilletje dat hier verder niet zo belangrijk is.
 

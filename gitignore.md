@@ -1,4 +1,4 @@
-# .gitignore basis
+# `.gitignore` basis
 
 ## basisprincipe
 Je wil niet alle data die je produceert bijhouden in versiebeheer. Enkele voorbeelden van bestanden die je niet wil bijhouden:
