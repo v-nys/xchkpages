@@ -15,10 +15,14 @@ Om te bekijken welke files wijzigingen bevatten die nog niet in je logboek staan
 ## Data van de working directory naar de staging area verplaatsen
 Om een wijziging "in potlood" in je logboek te noteren, moet je wel een commando van Git gebruiken. Dat commando is `git add`. Je laat dit commando volgen door de naam van het bestand waaraan je iets veranderd hebt, zelfs als je dat bestand gewist hebt. Een verkorte notatie is `git add --all`. Deze notatie zet **alle** wijzigingen in de staging area. Let op dat je niet te veel in je logboek zet!
 
+We noemen het verplaatsen van data naar de staging area ook **stagen**.
+
 ## Data van de staging area naar de project history verplaatsen
 Om wijzigingen "in potlood" om te zetten naar wijzigingen "in pen", gebruik je het commando `git commit`. Dit maakt één nieuwe nota in je logboek en zet alle wijzigingen over van de staging area naar de project history. **Met wijzigingen die in de working directory staan, gebeurt niets!**
 
 Wanneer je een nota in je logboek zet, moet je ook beschrijven wat de gebundelde wijzigingen doen. Als je `git commit` zo uitvoert, wordt er een text editor geopend waarin je dit bericht kan intypen. Dit is vaak wat onhandig, dus je kan ook gebruik maken van `-m` en meteen daarna het bericht tussen aanhalingstekens plaatsen. Bijvoorbeeld: `git commit -m "Knop voor password reset en code achter de schermen toegevoegd."`
+
+We noemen het verplaatsen naar de projectgeschiedenis **committen**.
 
 ## Overzicht
 ![overzicht stappen]({% pagerepo git-stages-basics.png %})
