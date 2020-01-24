@@ -70,8 +70,10 @@ root
 │   ├── 1B.pdf
 │   ├── 1C.md
 │   └── cache
+│       └── 1.o
 ├── submap2
 │   ├── cache
+│   │   └── 2.p
 │   ├── submap2A
 │   │   ├── 2Aa.pdf
 │   │   └── 2Ab.pdf
@@ -82,6 +84,8 @@ root
     ├── submap3A
     │   ├── 2Ba.md
     │   └── cache
+    │       ├── 3.q
+    │       └── 4.r
     └── submap3B
         └── 3Ba.pdf
 ```
