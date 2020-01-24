@@ -59,6 +59,40 @@ Dan kan je `c.html` en `f.pkg` (in de map `bin/pkg`) stagen en committen.
 ## simpele wildcards
 Soms wil je hele groepen bestanden negeren. Je hebt misschien een reeks `.png`-bestanden die gegenereerd worden uit `.svg`-bestanden. Dan is het een slecht idee de `.png`-bestanden in versiebeheer te plaatsen. In de plaats daarvan kan je beter alle `.png`-bestanden in dat project negeren. Om dit te doen, schrijf je "*.png" (zonder aanhalingstekens). Een "*" matcht met alles behalve het karakter "/". Je kan ook één karakter matchen (behalve de "/") met het karakter "?".
 
+# Opdracht
+{% instructions %}
+Veronderstel dat je begint vanaf volgende bestandenstructuur:
+
+```
+root
+├── submap1
+│   ├── 1A.pdf
+│   ├── 1B.pdf
+│   ├── 1C.md
+│   └── cache
+├── submap2
+│   ├── cache
+│   ├── submap2A
+│   │   ├── 2Aa.pdf
+│   │   └── 2Ab.pdf
+│   └── submap2B
+│       └── 2Ba.md
+└── submap3
+    ├── cache
+    ├── submap3A
+    │   ├── 2Ba.md
+    │   └── cache
+    └── submap3B
+        └── 3Ba.pdf
+```
+
+Schrijf een `.gitignore`-bestand dat volgende zaken doet:
+
+* alle mappen `cache` negeren, waar ze ook staan in de structuur
+* alle `.pdf`-bestanden negeren, waar ze ook staan in de structuur
+* het bestand `1C.md` negeren
+* het bestand `2Ba.md` uit `submap3A` negeren, maar niet dat uit `submap2B`
+
 # Voetnoten
 [^1]: Er zijn andere (aangeraden) manieren om deze te negeren dan een `.gitignore` in je project, maar we willen niet afdwalen.
 [^2]: Het is niet absoluut onmogelijk, maar je ziet de uitzonderingen later.
