@@ -86,12 +86,16 @@ root
         └── 3Ba.pdf
 ```
 
-Schrijf een `.gitignore`-bestand dat volgende zaken doet:
+Indien je je bestand zou hernoemen naar `.gitignore`, zou het volgende zaken doen:
 
 * alle mappen `cache` negeren, waar ze ook staan in de structuur
 * alle `.pdf`-bestanden negeren, waar ze ook staan in de structuur
 * het bestand `1C.md` negeren
 * het bestand `2Ba.md` uit `submap3A` negeren, maar niet dat uit `submap2B`
+
+.. warning::
+
+   We noemen het bestand niet `.gitignore` omdat het dan ook zou functioneren als een `.gitignore`-bestand.
 
 # Voetnoten
 [^1]: Er zijn andere (aangeraden) manieren om deze te negeren dan een `.gitignore` in je project, maar we willen niet afdwalen.
