@@ -1,4 +1,13 @@
-# Data afhalen van remote: `git pull`
+# Data afhalen van remote: `git pull` (met één tak die voor ligt op de jouwe)
+.. warning::
+
+   Deze uitleg veronderstelt dat je niet hebt afgeweken van de cursus. In het bijzonder wordt hier verondersteld dat je nog geen gebruik hebt gemaakt van branches. Als je niet weet wat branches zijn, heb je er waarschijnlijk nog maar één en volstaat de uitleg hieronder.
+
+Met `git push` stuur je jouw eigen aanpassingen naar een remote. Je gebruikt het wanneer jouw logboek **voor** ligt op het logboek van de remote. Het kan ook andersom. Als het logboek van je remote voorligt op je eigen logboek, kan je je eigen logboek up-to-date brengen met `origin` door middel van `git pull`.
+
+.. info::
+
+   Het kan zijn dat je logboek niet gelijk staat, niet voor loopt en niet achter loopt. Maar die situatie zal niet ontstaan tot je ze aankan indien je de instructies goed volgt. Lig er nu niet wakker van.
 
 # Oefening
 {% instructions %}
