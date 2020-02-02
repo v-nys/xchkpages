@@ -18,7 +18,7 @@ Merk de herhalende structuur op. Elk blokje is een **commit**. Zie dit als een t
 {% instructions %}
 
 ## Vraag 1
-Hoe noemen we de code die wordt afgeleid uit de code in je repository op het moment van een commit?
+Hoe noemen we de code die wordt afgeleid uit de code in je repository op het moment van een commit? Antwoord in twee woorden.
 
 ## Vraag 2
 Er verschijnt een nieuw blokje in je geschiedenis na het uitvoeren van welk commando dat je al kent? Antwoord in twee woorden (het eerste is "git", zonder aanhalingstekens)
