@@ -15,3 +15,5 @@ Om deze oefening te maken, doe je volgende zaken:
 4. Als het updaten goed uitgevoerd is, zie je normaal onder andere de output `Updating` gevolgd door een commit hash.
 5. Overschrijf de inhoud van het tekstbestand dat je hebt gemaakt met de regel onder de output `Updating` gevolgd door een commit hash. Dus kopieer de regel **na** de regel die begint met "Updating" en plak hem **volledig over** wat al in het bestand stond (het kan zijn dat het bestand leeg was).
 6. Maak een nieuwe commit en stuur de wijzigingen terug naar `origin`.
+
+![file toevoegen via Bitbucket web interface]({% pagerepo add-file-bitbucket-web-interface.png %})
