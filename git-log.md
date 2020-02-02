@@ -7,7 +7,7 @@ In onderstaande figuur zie je de uitvoer van `git log` in de repository waarin i
 
 Merk de herhalende structuur op. Elk blokje is een **commit**. Zie dit als een tekstje in je logboek, of als een checkpoint die je hebt aangemaakt. Merk de verschillende onderdelen van één commit op (kijk telkens links van het blauwe cijfer):
 
-1. Dit is de "**commit hash**". Dit is een unieke code die wordt afgeleid uit alle data in je repository op het moment dat een commit operatie wordt uitgevoerd. De commit hash is een beetje als een nummer dat een bepaald punt in je logboek uniek aanduidt. Waarom dan niet gewoon tellen vanaf 1?
+1. Dit is de "**commit hash**". Dit is een unieke code die wordt afgeleid uit alle data in je repository op het moment dat een commit operatie wordt uitgevoerd. De commit hash is een beetje als een nummer dat een bepaald punt in je logboek uniek aanduidt. Waarom dan niet gewoon tellen vanaf 1? Dat heeft er mee te maken dat jij niet altijd de enige bent die aan je project werkt. Als jij iets toevoegt na nummer 1 en je collega voegt iets anders toe, is het niet meteen duidelijk welke aanpassingen nummer 2 moeten krijgen. Op de klok kan je niet rekenen, want twee computers hebben twee verschillende klokken.[^1]
 2. Dit is de naam van de persoon die de commit operatie heeft uitgevoerd. Dit is de naam die je hebt ingegeven toen je Git voor het eerst hebt geconfigureerd (met het commando `git config`).
 3. Dit is het e-mailadres dat je hebt ingegeven toen je Git voor het eerst hebt geconfigureerd. Zo kan iemand die vragen heeft bij iets dat je op een bepaald tijdstip hebt veranderd in de code je contacteren.
 4. Dit is het tijdstip waarop de gebruiker de commit operatie heeft uitgevoerd. Ook de tijdzone staat erbij vermeld.
@@ -25,3 +25,6 @@ Er verschijnt een nieuw blokje in je geschiedenis na het uitvoeren van welk comm
 
 ## Vraag 3
 Hoe noemen we de boodschap uitlegt wat je op een bepaalde checkpoint hebt aangepast?
+
+# Voetnoten
+[^1]: Dit is niet de enige reden waarom dit lastig zou liggen. Branches, die we later zullen zien, maken het nog moeilijker een stijgende reeks getallen te gebruiken.
