@@ -27,7 +27,10 @@ Enkele dingen die zonder versiebeheer heel lastig zijn en met versiebeheer erg e
 5. Klik op de link in de afbeelding hieronder.
 6. Kies links voor de Nederlandse vertaling.
 7. Kopieer de URL uit je browserbalk naar het bestand `wat-is-git.txt`
-8. Voer na elkaar uit: `git add wat-is-git.txt`, `git commit -m "URL"`, `git push`
+8. Voer na elkaar uit:
+  * `git add wat-is-git.txt`
+  * `git commit -m "URL"`
+  * `git push`
 9. Ga op deze website naar de knop "Controleer oefeningen", duid je repository voor dit vak aan, duid het "batch type voor oefeningen zonder side effects" aan, duid de oefening "Wat is Git?" aan en klik op "checken".
 
 ![Officieel boek]({% pagerepo officieel-boek-git.png %})

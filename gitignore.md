@@ -57,7 +57,7 @@ root
 Dan kan je `c.html` en `f.pkg` (in de map `bin/pkg`) stagen en committen.
 
 ## simpele wildcards
-Soms wil je hele groepen bestanden negeren. Je hebt misschien een reeks `.png`-bestanden die gegenereerd worden uit `.svg`-bestanden. Dan is het een slecht idee de `.png`-bestanden in versiebeheer te plaatsen. In de plaats daarvan kan je beter alle `.png`-bestanden in dat project negeren. Om dit te doen, schrijf je "*.png" (zonder aanhalingstekens). Een "*" matcht met alles behalve het karakter "/". Je kan ook één karakter matchen (behalve de "/") met het karakter "?".
+Soms wil je hele groepen bestanden negeren. Je hebt misschien een reeks `.png`-bestanden die gegenereerd worden uit `.svg`-bestanden. Dan is het een slecht idee de `.png`-bestanden in versiebeheer te plaatsen. In de plaats daarvan kan je beter alle `.png`-bestanden in dat project negeren. Om dit te doen, schrijf je "\*.png" (zonder aanhalingstekens). Een "\*" matcht met alles behalve het karakter "/". Je kan ook één karakter matchen (behalve de "/") met het karakter "?".
 
 # Opdracht
 {% instructions %}
