@@ -25,5 +25,5 @@ Vul eerst de schrijfwijze van de gevraagde stukken tekst in, *met* de nodige quo
 * `hij zei: "ik hou van radio's"`
 * `een newline schrijf je als \n`
 * `een backslash schrijf je als \\`
-* 5 is voor Python hetzelfde als 5.0?
+* `5` is voor Python hetzelfde als `5.0`?
 * Python maakt geen rekenfouten?
