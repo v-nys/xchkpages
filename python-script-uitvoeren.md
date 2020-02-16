@@ -1,0 +1,2 @@
+# Een Python script uitvoeren via command line
+Typisch wordt een Python script uitgevoerd via de command line. Hiervoor typ je `python <naam-van-het-script>.py`. Indien je script op een andere plaats staat dan de plaats waar jij je met je terminal begeeft, kan je de volledige locatie (ook het "absoluut pad" genoemd) van dit script opgeven, of de locatie ten opzichte van je huidige locatie (het "relatief pad").
