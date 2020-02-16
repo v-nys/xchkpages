@@ -3,7 +3,7 @@ Zie [Spronck](http://www.spronck.net/pythonbook/pythonboek.pdf), sectie 3.1. Enk
 
 - `print` is inderdaad een functie
 - `print` gevolgd door ronde haakjes met eventueel iets tussen is een **functieoproep**
-- een functieoproep is een statement
+- wij zullen steeds maar één zaak afprinten, dus we zullen geen verschillende waarden tussen de haakjes van `print` zetten
 
 ## Oefening
 {% instructions %}
@@ -12,4 +12,3 @@ Zie [Spronck](http://www.spronck.net/pythonbook/pythonboek.pdf), sectie 3.1. Enk
 - print ook `radio's`
 - print ook `hij zei: "ik hou van radio's"`
 - print ook `het is http://, niet http:\\`
-- print al deze zaken ook eens in één statement, waarbij de getoonde waarden gescheiden zijn door telkens één spatie
