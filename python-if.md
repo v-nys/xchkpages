@@ -1,5 +1,5 @@
 # `if`
-Zie [Spronck](http://www.spronck.net/pythonbook/pythonboek.pdf), 6.2.1 voor de algemen uitleg.
+Zie [Spronck](http://www.spronck.net/pythonbook/pythonboek.pdf), 6.2.1 voor de algemene uitleg.
 
 ## Opmerking
 Binnenin een `if`-statement mag je gerust nog een `if`-statement schrijven. Je moet daarbij wel de indentatie vergroten. Bijvoorbeeld:
