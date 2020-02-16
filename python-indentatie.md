@@ -42,3 +42,5 @@ Het eerste stukje is geldig. Het tweede niet. In Python maakt witruimte een vers
 .. danger::
 
    Als je een andere text editor dan IDLE gebruikt voor Python, is de kans groot dat een tab letterlijk wordt genomen. Er is een **zeer** algemene afspraak in de Pythonwereld (en ook in sommige andere programmertalen) om **geen** letterlijke tabs te gebruiken. Zorg er dus voor dat je je text editor instelt om tabs vanzelf om te zetten in vier spaties. Instructies om je text editor aan te passen vind je makkelijk via Google als je de naam van je text editor intypt, gevolgd door "tabs to spaces".
+
+{% instructions %}
