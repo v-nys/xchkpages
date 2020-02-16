@@ -12,3 +12,7 @@ Zie [Spronck](http://www.spronck.net/pythonbook/pythonboek.pdf), sectie 3.1. Enk
 - print ook `radio's`
 - print ook `hij zei: "ik hou van radio's"`
 - print ook `het is http://, niet http:\\`
+
+.. important::
+
+   Test dit uit voor je de oefening controleert. Het heeft geen zin de oefening te controleren als je een foute weergave op je scherm ziet.
