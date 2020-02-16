@@ -42,6 +42,7 @@ In de REPL kan je statements intypen en zullen deze worden uitgevoerd. Als de st
 ## Opdracht
 {% instructions %}
 - Voer opgave 2.2 van [Spronck](http://www.spronck.net/pythonbook/pythonboek.pdf) (blz. 14) uit. Geef het Pythonbestand de naam die gebruikt wordt in bovenstaande instructies.
+  - gebruik geen enkele spatie in je bestand!
 - Kies voor volgende zaken de meest nauwkeurige omschrijving: "expressie" of "statement". Vul één antwoord in per regel in het gevraagde tekstbestand. Je kent de exacte betekenis van al deze zaken nog niet, maar ze werken zoals je zou verwachten op basis van andere talen.
   1. `7 / 4`
   2. `print(7 / 4)`
