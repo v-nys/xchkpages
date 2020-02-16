@@ -8,7 +8,6 @@ Te kennen constructies:
 * `-`
 * `*`
 * `/`
-* `==`
 
 ## Oefening
 {% instructions %}
