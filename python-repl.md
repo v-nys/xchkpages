@@ -1,7 +1,5 @@
 # De Python Read-Evaluate-Print Loop (REPL)
-Als je (in Powershell of in je Mac Terminal) het commando `python` intypt, start je de Python "Read-Evaluate-Print Loop" (REPL) op. Op het eerste zicht lijkt deze heel erg op Powershell of op de shellomgeving van Mac. Maar Powershell commando's zullen hier niet werken.
-
-Wat hier wel werkt, zijn **statements** in Python.
+Als je IDLE opstart, krijg je een systeemboodschap te zien, gevolgd door `>>>`. Deze `>>>` wijst erop dat je je bevindt in een Read-Evaluate-Print Loop (REPL), ook wel Python shell genoemd. Net als Powershell (of, voor wie Mac gebruikt, bash of zsh) is dit een interactieve omgeving. De commando's die je hier kan intypen verschillen echter van die in Powershell, bash of zsh. Wat hier wel werkt, zijn **statements** in Python.
 
 ## statements en expressies
 Een statement is één stukje code dat op zich kan worden uitgevoerd. Voorbeelden (niet in code, enkel om het idee te geven):
@@ -42,6 +40,12 @@ In de REPL kan je statements intypen en zullen deze worden uitgevoerd. Als de st
    Let op, het is niet omdat er iets getoond wordt, dat de statement ook een expressie is. Sommige statements die geen expressie zijn tonen ook dingen op het scherm.
 
 ## Opdracht
-TODO:
-- paar zaken zonder veel structuur intypen op de REPL
-- klein quizke: statement of expressie (met genoeg voorbeelden om gokwerk onmogelijk te maken, niet zeggen op welke regel fout zich bevindt, zeg wel dat er op elke regel "statement" of "expressie" moet staan)
+{% instructions %}
+- Voer opgave 2.2 van [Spronck](http://www.spronck.net/pythonbook/pythonboek.pdf) (blz. 14) uit. Geef het Pythonbestand de naam die gebruikt wordt in bovenstaande instructies.
+- Kies voor volgende zaken de meest nauwkeurige omschrijving: "expressie" of "statement". Vul één antwoord in per regel in het gevraagde tekstbestand. Je kent de exacte betekenis van al deze zaken nog niet, maar ze werken zoals je zou verwachten op basis van andere talen.
+  1. `7 / 4`
+  2. `print(7 / 4)`
+  3. `9 + 2`
+  4. een instructie om het programma te beëindigen
+  5. de waarde `8`
+  6. een lusstructuur die een blokje code eeuwig herhaalt
