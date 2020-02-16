@@ -10,10 +10,20 @@ Dit zijn er een pak minder dan sommige andere talen. Python heeft bijvoorbeeld g
 
 De details over deze datatypes vind je in [Spronck](http://www.spronck.net/pythonbook/pythonboek.pdf), onderdelen 3.2 en 6.1.1.
 
+.. warning::
+
+   We volgen een vaste afspraak rond de schrijfwijze van strings: als we kunnen, gebruiken we dubbele quotes. Als we dubbele quotes nodig hebben in onze tekst, gebruiken we enkele quotes. We gebruiken ook enkele quotes als we in onze tekst dubbele en enkele quotes nodig hebben.
+
 ## Opdracht
 {% instructions %}
-TODO
-- evenwaardigheid van paar strings
-- schrijfwijze van paar strings
-- evenwaardigheid van ints en floats
-- beperkingen kommagetallen (voorbeeld laten uitvoeren)
+
+Vul eerst de schrijfwijze van de gevraagde stukken tekst in, *met* de nodige quotes. Vul voor de vragen alleen `waar` of `niet waar` in.
+
+* `blabla`
+* `radio's`
+* `hij zei: "ik hou van jou"`
+* `hij zei: "ik hou van radio's"`
+* `een newline schrijf je als \n`
+* `een backslash schrijf je als \\`
+* 5 is voor Python hetzelfde als 5.0?
+* Python maakt geen rekenfouten?
