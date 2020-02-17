@@ -1,5 +1,5 @@
 # Python `for` loop
-Zie [Spronck](http://www.spronck.net/pythonbook/pythonboek.pdf), sectie 7.2 (inleiding), 7.2.1 en 7.2.2.
+Zie [Spronck](http://www.spronck.net/pythonbook/pythonboek.pdf), sectie 7.2 (inleiding), 7.2.1, 7.2.2 en 7.3.2. Verwijzingen naar `while` en `else` hoef je niet te begrijpen.
 
 ## Oefening
 {% instructions %}
