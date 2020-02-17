@@ -28,7 +28,7 @@ if x < 6:
 
 Dit werkt ook:
 ```python
-x = 5
+x = 4.5
 if x == 5:
     print("x is 5")
     if x > 4:
