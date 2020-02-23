@@ -8,10 +8,13 @@ Zie [Spronck](http://www.spronck.net/pythonbook/pythonboek.pdf), sectie 3.1. Enk
 ## Oefening
 {% instructions %}
 
-- print, met een functieoproep per waarde, achtereenvolgens de waarden `"hallo!"`, `3`, `99.99` en `False`.
-- print ook `radio's`
-- print ook `hij zei: "ik hou van radio's"`
-- print ook `het is http://, niet http:\\`
+- print de tekst `hallo!`
+- print de niet-tekstuele waarde `3`
+- print de niet-tekstuele waarde `99.99`
+- print de niet-tekstuele waarde `False`
+- print de tekst `radio's`
+- print de tekst `hij zei: "ik hou van radio's"`
+- print de tekst `het is http://, niet http:\\`
 
 .. important::
 
