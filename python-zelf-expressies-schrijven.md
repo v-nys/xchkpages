@@ -10,6 +10,8 @@ Te kennen constructies:
 * `/`
 
 ## Oefening
+{% instructions %}
+
 Schrijf volgende expressies uit als Pythoncode in `python-zelf-expressies-schrijven.py`. Schrijf één expressie per regel. Test ze uit in IDLE voor je ze indient!
 
 - de som van het product van 4 en 2 en 9
