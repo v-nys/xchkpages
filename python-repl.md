@@ -40,6 +40,6 @@ In de REPL kan je statements intypen en zullen deze worden uitgevoerd. Als de st
    Let op, het is niet omdat er iets getoond wordt, dat de statement ook een expressie is. Sommige statements die geen expressie zijn tonen ook dingen op het scherm.
 
 ## Opdracht
-Voer opgave 2.2 van [Spronck](http://www.spronck.net/pythonbook/pythonboek.pdf) (blz. 14) uit. Geef het Pythonbestand de naam die gebruikt wordt in bovenstaande instructies. Gebruik geen enkele spatie in je bestand!
+Voer opgave 2.2 van [Spronck](http://www.spronck.net/pythonbook/pythonboek.pdf) (blz. 14) uit. Geef het Pythonbestand de naam die gebruikt wordt in onderstaande instructies. Gebruik geen enkele spatie in je bestand!
 {% instructions %}
 
