@@ -21,7 +21,7 @@ Maak een bestand met als naam `beginnen-git-init.txt`. Beantwoord in dat bestand
 
 1. Wat is de korte naam (vier letters) voor een project waarvoor we Git gebruiken?
 2. Welk commando moet je ingeven om een gewone map te voorzien van de nodige metadata voor versiebeheer?
-3. Hoe heet de map die de metadata bevat met je projectgeschiedenis?
+3. Hoe heet de map die de metadata bevat met je projectgeschiedenis? (Tip: het is **niet** "root"! Dat is de map waarin de map staat die we zoeken...)
 
 Voer vervolgens uit in je shell (dus via Powershell of Terminal), in je Git repository:
 
