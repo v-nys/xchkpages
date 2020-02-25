@@ -34,3 +34,5 @@ Enkele dingen die zonder versiebeheer heel lastig zijn en met versiebeheer erg e
 9. Ga op deze website naar de knop "Controleer oefeningen", duid je repository voor dit vak aan, duid het "batch type voor oefeningen zonder side effects" aan, duid de oefening "Wat is Git?" aan en klik op "checken".
 
 ![Officieel boek]({% pagerepo officieel-boek-git.png %})
+
+{% instructions %}

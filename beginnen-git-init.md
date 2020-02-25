@@ -30,4 +30,6 @@ Voer vervolgens uit in je shell (dus via Powershell of Terminal), in je Git repo
 3. `git push`
 4. Ga tenslotte naar "Controleer oefeningen" op deze website, kies je Git repository voor dit vak, kies het batchtype "voor oefeningen zonder side effects", duid de oefening "Beginnen: git init" aan en klik op "checken".
 
+{% instructions %}
+
 # Voetnoten
