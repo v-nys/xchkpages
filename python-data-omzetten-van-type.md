@@ -8,4 +8,4 @@ Schrijf in een bestandje, `python-data-omzetten-van-type.py`, één expressie wa
 
 .. warning::
 
-   Deze oefening kan nog niet automatisch gecontroleerd worden. Vraag de lector om na te kijken.
+   Deze oefening kan nog niet automatisch gecontroleerd worden. Dien ze eerst in alsof dat wel ging en vraag daarna aan de lector om na te kijken.

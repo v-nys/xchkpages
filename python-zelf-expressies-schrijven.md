@@ -21,4 +21,4 @@ Schrijf volgende expressies uit als Pythoncode in `python-zelf-expressies-schrij
 
 .. warning::
 
-   Deze oefening kan nog niet automatisch gecontroleerd worden. Vraag de lector om ze na te kijken.
+   Deze oefening kan nog niet automatisch gecontroleerd worden. Dien ze eerst in alsof dat wel ging en vraag daarna aan de lector om ze na te kijken.

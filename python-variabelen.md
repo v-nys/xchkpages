@@ -32,4 +32,4 @@ Print aan het einde `boodschap` af, gevolgd door `berekening`. Beide mogen op ee
 
 .. warning::
 
-   Deze oefening kan nog niet automatisch gecontroleerd worden.
+   Deze oefening kan nog niet automatisch gecontroleerd worden. Dien ze eerst in alsof dat wel ging en vraag daarna aan de lector om ze na te kijken.

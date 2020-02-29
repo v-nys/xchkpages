@@ -22,4 +22,4 @@ c
 
 .. warning::
 
-   Deze oefening kan nog niet automatisch aanvaard worden.
+   Deze oefening kan nog niet automatisch aanvaard worden. Dien ze eerst in en vraag daarna aan de lector om ze na te kijken.
