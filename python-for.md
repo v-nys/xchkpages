@@ -3,4 +3,4 @@ Zie [Spronck](http://www.spronck.net/pythonbook/pythonboek.pdf), sectie 7.2 (inl
 
 ## Oefening
 {% instructions %}
-Schrijf een script met de naam `oss-for-loop.py` dat elke letter van `"OS Scripting"` (inclusief de spatie) op een aparte regel afprint.
+Schrijf een script met de gevraagde naam dat elke letter van `"OS Scripting"` (inclusief de spatie) op een aparte regel afprint.
