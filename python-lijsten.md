@@ -9,8 +9,6 @@ for element in [1,2,3]:
     print(element)
 ```
 
-Je kan meer dan alleen getallen bijhouden in lijsten. Je kan er om het even welk type data in kwijt. Je kan zelfs lijsten in andere lijsten bijhouden (al overdrijf je best niet).
-
 ## Syntax
 Een lijst schrijf je altijd uit zoals hierboven: met rechte haken (`[` en `]`) en met elementen die gescheiden worden door `,`. Deze elementen zijn niet altijd letterlijke uitgeschreven waarden. Het mogen allerlei expressies zijn.
 
