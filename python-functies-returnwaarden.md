@@ -13,6 +13,12 @@ Als functieoproepen expressies zijn en sommige functies geen returntype hebben, 
    Vergeet niet dat de REPL resultaten van een berekening automatisch afprint. Dus het is niet omdat je iets in de REPL ziet verschijnen, dat er een `print` staat.
    Omgekeerd is het ook niet zo dat een geprinte waarde een returnwaarde is. Om op die vraag te antwoorden, moet je je functies kennen, de documentatie raadplegen of experimenteren.
 
-## Oefening
-{% instructions %}
-Schrijf de dubbele print van hierboven ook uit in het gevraagde bestand en voer dat bestand uit. Verklaar voor jezelf het verschil in wat je ziet.
+Als je in de REPL `None` terugkrijgt als returnwaarde, wordt dit niet geprint. Probeer eens gewoon `None` te typen in de REPL en daarna `3` te typen. Anders kreeg je met de instructie van hierboven met de geneste print het volgende resultaat:
+
+```python
+Hello, World!
+None
+None
+```
+
+Zie je waarom?
