@@ -10,7 +10,7 @@ for element in [1,2,3]:
 ```
 
 ## Syntax
-Een lijst schrijf je altijd uit zoals hierboven: met rechte haken (`[` en `]`) en met elementen die gescheiden worden door `,`. Deze elementen zijn niet altijd letterlijke uitgeschreven waarden. Het mogen allerlei expressies zijn.
+Een lijst schrijf je altijd uit zoals hierboven: met rechte haken (`[` en `]`) en met elementen die gescheiden worden door een komma. Deze elementen zijn niet altijd letterlijk uitgeschreven waarden. Het mogen allerlei expressies zijn.
 
 Onderstaande code doet dus net hetzelfde als bovenstaande code:
 
