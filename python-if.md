@@ -41,7 +41,7 @@ Toch betekenen ze niet hetzelfde. **Kan je dit verklaren?**
 
 ## Oefening
 {% instructions %}
-Schrijf een scriptje, `valid-ipv4-1.py`. Dit scriptje start door vier variabelen aan te maken, `byte1`, `byte2`, `byte3` en `byte4`. Je plaatst hierin gehele getalwaarden naar keuze. Daarna gebruik je `if`s om precies één van volgende boodschappen te printen:
+Schrijf een scriptje met de gevraagde naam. Dit scriptje start door vier variabelen aan te maken, `byte1`, `byte2`, `byte3` en `byte4`. Je plaatst hierin gehele getalwaarden naar keuze. Daarna gebruik je `if`s om precies één van volgende boodschappen te printen:
 
 - `"de vier bytes vormen geen geldig IPv4-adres"`
 - `"de vier bytes vormen een IPv4-adres in het bereik 10.0.0.0/8"`
