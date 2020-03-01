@@ -3,7 +3,7 @@ Je kennis van de gewone `for` loop zou al moeten volstaan, maar je moet iets mee
 
 ## Oefening
 {% instructions %}
-Schrijf een script `nested-for-loop.py` dat met behulp van twee lussen en stukken tekst `"123"` en `"abc"` volgende output op het scherm toont:
+Schrijf een script met de gevraagde naam dat met behulp van twee lussen en stukken tekst `"123"` en `"abc"` volgende output op het scherm toont:
 
 ```text
 1
