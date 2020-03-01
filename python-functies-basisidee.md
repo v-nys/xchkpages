@@ -12,3 +12,5 @@ Functies zijn herbruikbare stukjes code die één welbepaalde taak uitvoeren. Sc
    Functieoproepen kunnen je een bepaalde waarde opleveren. Het zijn dus **expressies**!
 
 Zie [Spronck](http://www.spronck.net/pythonbook/pythonboek.pdf), 5.1.1 en 5.1.2 (blz. 37 tot 38) voor het gebruik van functies.
+
+{% instructions %}
