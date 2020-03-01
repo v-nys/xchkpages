@@ -13,3 +13,5 @@ Ook methodes kunnen argumenten hebben. Bijvoorbeeld: `"aBC".replace("B","d")` he
 
 ## Wanneer methodes en wanneer functies?
 Meer dan functies zijn methoden vaak gekoppeld aan specifieke datatypes, maar er is niet echt een harde regel rond wanneer je beter een functie schrijft en wanneer beter een methode. Zeker in Python is dit zo, omwille van de flexibiliteit van data in deze taal. Lig er voorlopig niet van wakker en gebruik wat voor jou werkt.
+
+{% instructions %}
