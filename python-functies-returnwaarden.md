@@ -7,3 +7,12 @@ Op het eerste zicht vrij eenvoudig, maar let op. Wat is de returnwaarde van `pri
 
 ## `None`
 Als functieoproepen expressies zijn en sommige functies geen returntype hebben, zorgt dat dan niet voor problemen? In feite wel. Dit wordt opgelost door een ontbrekende waarde voor te stellen. In Python gebeurt dit met `None`. Probeer eens uit in de Python REPL: `print(print("Hello, World!"))`.
+
+.. warning::
+
+   Vergeet niet dat de REPL resultaten van een berekening automatisch afprint. Dus het is niet omdat je iets in de REPL ziet verschijnen, dat er een `print` staat.
+   Omgekeerd is het ook niet zo dat een geprinte waarde een returnwaarde is. Om op die vraag te antwoorden, moet je je functies kennen, de documentatie raadplegen of experimenteren.
+
+## Oefening
+{% instructions %}
+Schrijf de dubbele print van hierboven ook uit in het gevraagde bestand en voer dat bestand uit. Verklaar voor jezelf het verschil in wat je ziet.
