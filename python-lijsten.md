@@ -28,7 +28,7 @@ Lijsten zijn zelf waarden, dus je kan ze overal gebruiken waar je een expressie 
 
 ## Oefening
 {% instructions %}
-Schrijf een scriptje, `print-odd-list.py`, dat een lijst met de oneven getallen tussen 1 en 9 aanmaakt en toekent aan een variabele `my_list`. Vervolgens doorloopt het deze lijst en print het de getallen. Dat ziet er dan zo uit:
+Schrijf een scriptje met de gevraagde naam dat een lijst met de oneven getallen tussen 1 en 9 aanmaakt en toekent aan een variabele `my_list`. Vervolgens doorloopt het deze lijst en print het de getallen. Dat ziet er dan zo uit:
 
 ```python
 1
