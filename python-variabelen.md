@@ -23,7 +23,6 @@ Reken op een overzichtelijke manier het aantal seconden per week uit. Schrijf he
 - `seconden_per_minuut` met waarde `60`
 - `minuten_per_uur` met waarde `60`
 - `uren_per_dag` met waarde `24`
-- `uren_per_dag` met waarde `24`
 - `dagen_per_week` met waarde `7`
 - `boodschap` met waarde `"Er zijn zo veel seconden in een week:"`
 - `berekening` met het aantal seconden in een week, op basis van je andere variabelen
