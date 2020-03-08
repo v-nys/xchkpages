@@ -19,6 +19,10 @@ Packages kan je installeren met behulp van `pip`. Standaard gebeurt dit systeemb
 
 De syntax om een package te installeren is (uit te voeren **buiten** de REPL): `pip install package-name`. Je vindt een heleboel nuttige packages terug op de [Python Package Index](https://pypi.org/).
 
+.. warning::
+
+   Let er op dat je eerst je virtuele omgeving hebt geactiveerd voor je een package installeert. We willen alles zo clean mogelijk houden!
+
 Op dit ogenblik bekijken we niet hoe je zelf packages schrijft. Dat is wat je zal doen als je code hebt geschreven die je wil delen met anderen die niet noodzakelijk aan hetzelfde project aan het werken zijn als jij.
 
 ## Oefening
