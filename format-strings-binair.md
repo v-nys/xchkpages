@@ -6,3 +6,6 @@ Bijvoorbeeld:
 ```python
 print(f"85 in binaire notatie is {85:b}")
 ```
+
+## Oefening
+{% instructions %}
