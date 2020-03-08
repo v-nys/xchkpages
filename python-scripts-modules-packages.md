@@ -27,3 +27,5 @@ Op dit ogenblik bekijken we niet hoe je zelf packages schrijft. Dat is wat je za
 
 ## Oefening
 {% instructions %}
+
+Ga op de Python package index op zoek naar een package die je toestaat in het Flask web framework IP-adressen te bannen. Gebruik de search box alsof het Google was, hij is behoorlijk goed met fuzzy search. Bekijk dit package en kopieer het commando dat je zou moeten ingeven om deze functionaliteit toe te voegen aan jouw Python installatie. Gebruik de knop om het commando te kopiëren en plak dat letterlijk in het gevraagde bestand.
