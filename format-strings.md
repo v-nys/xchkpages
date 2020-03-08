@@ -30,3 +30,16 @@ Je hoeft niet alle mogelijke formaten uit het hoofd te leren. Je hoeft er op dit
 .. important::
 
    Format strings zijn leesbaarder en sneller dan andere manieren om strings weer te geven (bijvoorbeeld door ze aan elkaar te plakken met `+`). We gebruiken ze niet in alle voorbeelden, zodat je de leerstof in een volgorde naar eigen keuze kan behandelen, maar we bevelen ten sterkste aan dat je altijd format strings gebruikt en de alternatieven zo snel mogelijk achter je laat.
+
+## Oefening
+{% instructions %}
+
+Schrijf volgende `print`s met format strings. Schrijf een `print` van een format string per regel en volg de afspraken die we eerder hebben gemaakt rond de schrijfwijze van strings. Schrijf de `print`-instructie rond de format string en raadpleeg [pyformat](https://pyformat.info/)!
+
+1. Een print met daarin `datetime.datetime.now()` die je op 9 maart 2020 zou tonen: `Het is vandaag 09-03-2020`. Om dit te testen moet je eerst `import datetime` schrijven.
+2. Een print die de tekst "README" middenin een string van 80 karakters plaatst.
+
+De output van je tweede print zou dit moeten zijn:
+```text
+                                     README                                     
+```
