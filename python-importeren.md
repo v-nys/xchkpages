@@ -1,4 +1,4 @@
-# Importeren van functionaliteit
+# Basis importeren van functionaliteit
 Meer dan 99% van de code die je nodig hebt voor zowat elke taak bestaat al. Hoe gebruik je ze? Door ze te importeren. Met behulp van het sleutelwoordje `import` kan je variabelen, functies of klassen die al bestaan buiten je module gebruiken binnen je module.
 
 ## Basisgebruik
@@ -33,16 +33,12 @@ Je kan een `import` niet meteen laten volgen door de naam van om het even welke 
   - als daar geen match wordt gevonden, wordt er gezocht in ingebouwde of geïnstalleerde packages
   - dit houdt in dat modules of packages in de directory voorrang hebben op ingebouwde of geïnstalleerde packages
 
-.. info::
+.. important::
 
    We spreken hier bewust over het "defaultmechanisme". Je kan dit aanpassen, maar dat raden we niet meteen aan.
 
 ## Importeren wat je nodig hebt
-Modules of packages bevatten soms veel meer functionaliteit dan je nodig hebt. Tenzij je echt véél functionaliteit uit een bepaald package nodig hebt, doe je er beter aan uitdrukkelijk te zeggen welke stukjes je nodig hebt. Dat doe je met volgende syntax:
-
-```p
-from <module-or-package> import <identifier1>, <identifier2>,...
-```
+Modules of packages bevatten soms veel meer functionaliteit dan je nodig hebt. Tenzij je echt véél functionaliteit uit een bepaald package nodig hebt, doe je er beter aan uitdrukkelijk te zeggen welke stukjes je nodig hebt. Dat doe je met volgende syntax: `from <module-or-package> import <identifier1>, <identifier2>,...`
 
 Op deze manier kunnen we in onze code rechtstreeks gebruik maken van de geïmporteerde identifiers.
 
@@ -66,5 +62,6 @@ useful_function()
 ```
 
 ## "Singleton" modules
+
 
 ## Circulaire imports
