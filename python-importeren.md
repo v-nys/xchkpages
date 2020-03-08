@@ -71,3 +71,10 @@ Er is geen kant-en-klare oplossing hiervoor, maar meestal betekent het dat `a.py
 
 ## Verder
 Online kan je misschien code tegenkomen die gebruik maakt van complexere imports. Hoogstwaarschijnlijk gaat het dan over relatieve of absolute imports. Wij behandelen deze niet in de cursus OS Scripting, maar je kan er [hier](https://realpython.com/absolute-vs-relative-python-imports/) meer over lezen.
+
+## Oefening
+{% instructions %}
+
+Antwoord met `waar` of `niet waar` in het gevraagde tekstbestand op volgende vraag.
+
+Ik sta met Powershell in `C:\Users\vincent` en typ daar in `python .\scripts\my_script.py`. In `my_script.py` staat bovenaan `import my_helper`. Het bestand `my_helper.py` staat in `C:\Users\vincent\scripts`. Deze `import` zal tot een foutmelding leiden.
