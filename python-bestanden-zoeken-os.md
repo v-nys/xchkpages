@@ -20,6 +20,7 @@ Zoek in [de documentatie](https://docs.python.org/3/library/os.path.html) functi
 
 - om na te gaan wat de absolute notatie van een gegeven pad is
 - om na te gaan of een gegeven pad wel een bestand voorstelt
+  - het is dus niet genoeg om na te gaan of het pad bestaat, want dan kan het ook om een directory gaan; je wil nagaan of het pad in kwestie echt een **bestand** voorstelt
 - om na te gaan hoe groot een bestand is
 - om een gegeven pad te vereenvoudigen zodat onderdelen zoals `.` en `..` weggewerkt worden
 
