@@ -61,10 +61,13 @@ useful_function()
 # my_main_module.useful_function()
 ```
 
-## "Singleton" modules
-
-
 ## Circulaire imports
+Eén situatie waarvoor je moet opletten bij het gebruik van `import` is de "circulaire import". Dit betekent dat een module, bijvoorbeeld `a.py` een andere module, bijvoorbeeld `b.py` nodig heeft, terwijl de andere module (`b.py`) ook de eerste nodig heeft.
+
+Visueel uitgedrukt:
+![circulaire import]({% pagerepo circular-import.png %})
+
+Er is geen kant-en-klare oplossing hiervoor, maar meestal betekent het dat `a.py` en `b.py` allebei te veel taken vervullen. Normaal kan je er kleinere modules uit afsplitsen die niet meer afhankelijk zijn van elkaar.
 
 ## Verder
 Online kan je misschien code tegenkomen die gebruik maakt van complexere imports. Hoogstwaarschijnlijk gaat het dan over relatieve of absolute imports. Wij behandelen deze niet in de cursus OS Scripting, maar je kan er [hier](https://realpython.com/absolute-vs-relative-python-imports/) meer over lezen.
