@@ -14,13 +14,15 @@ We gaan hier niet alle mogelijkheden opsommen. In het kort: als je iets wil doen
    Het kan verleidelijk zijn snel even padstrings op te bouwen door zelf stukken tekst aan elkaar te plakken met wat (back)slashes tussen. Let op! Niet alle besturingssystemen gebruiken dezelfde notatie om delen van een pad af te bakenen. Door gebruik te maken van `os.path` zal je code draagbaarder zijn naar andere besturingssystemen.
 
 ## Oefening
-Zoek in [de documentatie](https://docs.python.org/3/library/os.path.html?highlight=isfile#os.path.isfile) functionaliteit voor volgende taken:
+{% instructions %}
+
+Zoek in [de documentatie](https://docs.python.org/3/library/os.path.html) functionaliteit voor volgende taken. Kopieer exact de hoofding uit de documentatie, inclusief parameters,...:
 
 - om na te gaan wat de absolute notatie van een gegeven pad is
 - om na te gaan of een gegeven pad wel een bestand voorstelt
 - om na te gaan hoe groot een bestand is
 - om een gegeven pad te vereenvoudigen zodat onderdelen zoals `.` en `..` weggewerkt worden
 
-Schrijf je antwoorden exact zoals ze geschreven zijn in de documentatie (dus `os.path.<functienaam>(<alle parameters>`) neer in het gevraagde tekstbestand.
+.. warning::
 
-
+   Let op met copy-paste! Het kan zijn dat je anchor karakters meeneemt en dat wil je niet.
