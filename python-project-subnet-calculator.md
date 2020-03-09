@@ -11,3 +11,5 @@ Voor het tweede project zullen we een subnetcalculator bouwen. Dit is een script
 6. maximaal aantal hosts in het subnet berekenen en tonen
 7. wilcardmasker (dus bitsgewijze inverse van het subnetmasker) berekenen en tonen
 8. aantal 1-bits in het subnetmasker berekenen en tonen
+
+Als je bitwise operatoren nodig hebt: dit zijn `&` (voor `AND`), `|` (voor `OR`) en `~` (voor `NOT`).
