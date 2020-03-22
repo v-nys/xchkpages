@@ -25,6 +25,9 @@ De syntax om een package te installeren is (uit te voeren **buiten** de REPL): `
 
 Op dit ogenblik bekijken we niet hoe je zelf packages schrijft. Dat is wat je zal doen als je code hebt geschreven die je wil delen met anderen die niet noodzakelijk aan hetzelfde project aan het werken zijn als jij.
 
+## Filmpje
+[YouTube](https://youtu.be/VUVqrhjl-TE)
+
 ## Oefening
 {% instructions %}
 

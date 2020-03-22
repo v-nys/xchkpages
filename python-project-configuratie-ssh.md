@@ -1,5 +1,5 @@
 # Project: apparaten configureren via SSH
-Deze inhoud is nog niet volledig af, maar als je hier nu al bent, kan je waarschijnlijk al een goede poging doen. Deze instructies zijn nog niet volledig getest!
+We zijn op het punt dat we een script kunnen schrijven dat ons als netwerkbeheerders een heleboel werk kan uitsparen.
 
 ## Uitleg SSH op Windows
 - [putty installeren](https://www.putty.org/)
