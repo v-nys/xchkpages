@@ -28,7 +28,3 @@ Reken op een overzichtelijke manier het aantal seconden per week uit. Schrijf he
 - `berekening` met het aantal seconden in een week, op basis van je andere variabelen
 
 Print aan het einde `boodschap` af, gevolgd door `berekening`. Beide mogen op een aparte regel getoond worden.
-
-.. warning::
-
-   Deze oefening kan nog niet automatisch gecontroleerd worden. Dien ze eerst in alsof dat wel ging en vraag daarna aan de lector om ze na te kijken.
