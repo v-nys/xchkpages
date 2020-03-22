@@ -8,10 +8,14 @@ Zie [Spronck](http://www.spronck.net/pythonbook/pythonboek.pdf), sectie 3.1. Enk
 ## Oefening
 {% instructions %}
 
+{% hint style="warning" %}
+Let erop dat je de afspraken rond de schrijfwijze van strings volgt!
+{% endhint %}
+
 - print de tekst `hallo!`
-- print de niet-tekstuele waarde `3`
-- print de niet-tekstuele waarde `99.99`
-- print de niet-tekstuele waarde `False`
+- print `3` zonder meer
+- print `99.99` zonder meer
+- print `False` zonder meer
 - print de tekst `radio's`
 - print de tekst `hij zei: "ik hou van radio's"`
 - print de tekst `het is http://, niet http:\\`
