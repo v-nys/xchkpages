@@ -18,7 +18,7 @@ Dit zijn er een pak minder dan sommige andere talen. Python heeft bijvoorbeeld g
 ## Opdracht
 {% instructions %}
 
-Vul eerst de schrijfwijze van de gevraagde stukken tekst in, **met** de nodige quotes. Met andere woorden: als je in de REPL een antwoord intypt dat jij hier geeft, verschijnt het exact zoals op deze pagina.
+Vul eerst de schrijfwijze van de gevraagde stukken tekst in, **met** de nodige quotes. Met andere woorden: als je in de REPL een antwoord laat printen dat jij in je oplossing plaatst, verschijnt het exact zoals op deze pagina.
 
 Vul voor de vragen alleen `waar` of `niet waar` in.
 
