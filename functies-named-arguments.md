@@ -28,6 +28,7 @@ Je mag wel `"1,2,3".split(",",1)` schrijven, omdat hier de volgorde van de argum
 
 ## Oefening
 {% instructions %}
+**Vul de juiste letter in bij elke vraag**
 
 1. Welk van onderstaande functies en methodes heeft volgens [de documentatie](https://docs.python.org/3/library/stdtypes.html) minstens een keyword argument?
    a. `float.fromhex`

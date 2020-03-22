@@ -5,6 +5,8 @@ Zo levert `pow(3,3)` je het resultaat `27` op, omdat `3 * 3 * 3` gelijk is aan `
 
 Op het eerste zicht vrij eenvoudig, maar let op. Wat is de returnwaarde van `print("Hello, World!")`? Veel beginners veronderstellen dat dit `"Hello, World!"` is, omdat ze dat op hun scherm te zien krijgen. Dat is niet het geval. Als je de functie `print` gebruikt, stel je namelijk geen **vraag**. Je geeft een **bevel**, namelijk: "zet dit op het scherm" (of, nauwkeuriger, de output stream). Bij een bevel hoort geen antwoord, dus `print` heeft **geen returntype**.
 
+Zie je `print` toch als antwoord op een vraag? Bekijk dit dan eens niet van uit het standpunt van een mens, maar van een computer die meerdere berekeningen combineert. Veronderstel volgende samengestelde berekening: `verdubbel(3) + verdubbel(5)`. Als `verdubbel` het dubbel van zijn input berekent en dat als **antwoord** teruggeeft, kan de optelling verder. Als `verdubbel` het dubbel van zijn input op het scherm toont, krijgt de gebruiker misschien wel enkele getallen te zien waar hij niet in geïnteresseerd is, maar kan de optelling niet verder. Dat zou namelijk hetzelfde zijn als `print(6) + print(10)`. Dat gaat niet: `print` **zegt alleen maar dat iets op het scherm moet verschijnen** en kan niet gebruikt worden om resultaten voor andere bewerkingen mee te produceren.
+
 ## `None`
 Als functieoproepen expressies zijn en sommige functies geen returntype hebben, zorgt dat dan niet voor problemen? In feite wel. Dit wordt opgelost door een ontbrekende waarde voor te stellen. In Python gebeurt dit met `None`. Probeer eens uit in de Python REPL: `print(print("Hello, World!"))`.
 
@@ -22,3 +24,5 @@ None
 ```
 
 Zie je waarom?
+
+{% instructions %}
