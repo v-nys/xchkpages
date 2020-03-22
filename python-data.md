@@ -14,10 +14,13 @@ De details over deze datatypes vind je in [Spronck](http://www.spronck.net/pytho
 
    We volgen een vaste afspraak rond de schrijfwijze van strings: als we kunnen, gebruiken we dubbele quotes. Als we dubbele quotes nodig hebben in onze tekst, gebruiken we enkele quotes. We gebruiken ook enkele quotes als we in onze tekst dubbele en enkele quotes nodig hebben.
 
+## Filmpje
+[YouTube](https://youtu.be/EuqAPuhXzOw)
+
 ## Opdracht
 {% instructions %}
 
-Vul eerst de schrijfwijze van de gevraagde stukken tekst in, *met* de nodige quotes. Vul voor de vragen alleen `waar` of `niet waar` in.
+Vul eerst de schrijfwijze van de gevraagde stukken tekst in, **met** de nodige quotes. Vul voor de vragen alleen `waar` of `niet waar` in.
 
 * `blabla`
 * `radio's`
