@@ -9,6 +9,9 @@ Te kennen constructies:
 * `*`
 * `/`
 
+## Filmpje
+[YouTube](https://youtu.be/-89-UK4Gqyw)
+
 ## Oefening
 {% instructions %}
 
@@ -21,4 +24,4 @@ Schrijf volgende expressies uit als Pythoncode in `python-zelf-expressies-schrij
 
 .. warning::
 
-   Deze oefening kan nog niet automatisch gecontroleerd worden. Dien ze eerst in alsof dat wel ging en vraag daarna aan de lector om ze na te kijken.
+   Het is hier voorlopig moeilijk om alle mogelijke oplossingen te voorzien. Als je oefening niet automatisch geweigerd of aanvaard wordt, contacteer dan je lector via het formulier onderaan de pagina met feedback type `TECHNICAL ISSUE`.
