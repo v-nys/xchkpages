@@ -26,12 +26,14 @@ Nu kunnen we `useful_function()` oproepen in `my_main_module.py`. Let wel op: we
 Je kan een `import` niet meteen laten volgen door de naam van om het even welke module die ergens op je harde schijf staat. Het defaultmechanisme dat bepaalt wat je op deze manier kan importeren is als volgt:
 
 - er wordt gezocht naar modules met de gebruikte naam in de directory waarin je `python` hebt uitgevoerd
-  - als daar geen match wordt gevonden, wordt er gezocht in ingebouwde of geïnstalleerde packages
-  - dit houdt in dat modules in de directory voorrang hebben op ingebouwde of geïnstalleerde packages
+  - als daar geen match wordt gevonden, wordt er gezocht in een aantal defaultlocaties
+    - deze omvatten locaties waar packages (met `pip`,...) zijn geïnstalleerd
+    - dit houdt in dat modules in de directory voorrang hebben op ingebouwde of geïnstalleerde packages
+    - **soms** wordt er ook gezocht in de map van het bestand dat je aan het uitvoeren bent, **maar** dat hangt ervan af hoe je dat bestand hebt opgestart; als je het bestand uitvoert als een script (bv. `python mijnmap/mijnscript.py`) wordt er ook gezocht in de map van het bestand (d.w.z. in `mijnmap` in deze situatie)
 
 .. important::
 
-   We spreken hier bewust over het "defaultmechanisme". Je kan dit aanpassen, maar dat raden we niet meteen aan.
+   We spreken hier bewust over het "defaultmechanisme". Je kan dit aanpassen, maar dat raden we niet meteen aan. Het importmechanisme van Python kan behoorlijk complex worden, dus hou het voor de korte tot middellange termijn op deze regels en probeer niet te veel vernuftige imports te schrijven.
 
 ## Importeren wat je nodig hebt
 Modules bevatten soms veel meer functionaliteit dan je nodig hebt. Tenzij je echt véél functionaliteit uit een bepaalde module nodig hebt, doe je er beter aan uitdrukkelijk te zeggen welke stukjes je nodig hebt. Dat doe je met volgende syntax: `from <module> import <identifier1>, <identifier2>,...`
@@ -63,7 +65,7 @@ Eén situatie waarvoor je moet opletten bij het gebruik van `import` is de "circ
 Visueel uitgedrukt:
 ![circulaire import]({% pagerepo circular-import.png %})
 
-Er is geen kant-en-klare oplossing hiervoor, maar meestal betekent het dat `a.py` en `b.py` allebei te veel taken vervullen. Normaal kan je er kleinere modules uit afsplitsen die niet meer afhankelijk zijn van elkaar.
+Dit zal **niet** tot een foutmelding leiden, maar wel tot subtiele bugs. Het mechanisme hierachter gaan we niet bespreken. Zorg er gewoon voor dat je circulaire imports vermijdt! Er is ook geen kant-en-klare oplossing voor circulaire imports, maar meestal betekent het dat `a.py` en `b.py` allebei te veel taken vervullen. Normaal kan je er kleinere modules uit afsplitsen die niet meer afhankelijk zijn van elkaar.
 
 ## Verder
 Online kan je misschien code tegenkomen die gebruik maakt van complexere imports. Hoogstwaarschijnlijk gaat het dan over relatieve of absolute imports. Wij behandelen deze niet in de cursus OS Scripting, maar je kan er [hier](https://realpython.com/absolute-vs-relative-python-imports/) meer over lezen.
@@ -73,4 +75,4 @@ Online kan je misschien code tegenkomen die gebruik maakt van complexere imports
 
 Antwoord met `waar` of `niet waar` in het gevraagde tekstbestand op volgende vraag.
 
-Ik sta met Powershell in `C:\Users\vincent` en typ daar in `python .\scripts\my_script.py`. In `my_script.py` staat bovenaan `import my_helper`. Het bestand `my_helper.py` staat in `C:\Users\vincent\scripts`. Deze `import` zal tot een foutmelding leiden.
+Ik sta met Powershell in `C:\Users\vincent` en typ daar in `python .\scripts\my_script.py`. In `my_script.py` staat bovenaan `import my_helper`. Het bestand `my_helper.py` staat in `C:\Users\vincent`. Deze `import` zal tot een foutmelding leiden.
