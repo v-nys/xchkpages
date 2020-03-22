@@ -8,9 +8,9 @@ Zie [Spronck](http://www.spronck.net/pythonbook/pythonboek.pdf), sectie 3.1. Enk
 ## Oefening
 {% instructions %}
 
-{% hint style="warning" %}
-Let erop dat je de afspraken rond de schrijfwijze van strings volgt!
-{% endhint %}
+.. warning::
+
+   Let erop dat je de afspraken rond de schrijfwijze van strings volgt!
 
 - print de tekst `hallo!`
 - print `3` zonder meer
