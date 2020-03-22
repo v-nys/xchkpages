@@ -5,6 +5,9 @@ Zie [Spronck](http://www.spronck.net/pythonbook/pythonboek.pdf), sectie 3.1. Enk
 - `print` gevolgd door ronde haakjes met eventueel iets tussen is een **functieoproep**
 - wij zullen steeds maar één zaak afprinten, dus we zullen geen verschillende waarden tussen de haakjes van `print` zetten
 
+## Filmpje
+[YouTube](https://youtu.be/E3yfJn9CpeU)
+
 ## Oefening
 {% instructions %}
 
