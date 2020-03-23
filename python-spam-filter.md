@@ -19,7 +19,3 @@ file1.txt: spam
 file2.txt: geen spam
 file3.txt: spam
 ```
-
-## Verbeteringen
-1. Voorzie ondersteuning voor leestekens. Gebruik hiervoor de methode `replace` van strings. Zoek op via een search engine.
-2. Zorg dat je filter hoofdletterongevoelig is. Dus ook "InHeRiTaNcE" zou op spam moeten duiden.
