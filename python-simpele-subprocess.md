@@ -8,8 +8,9 @@ Wij zullen, tenzij anders vermeld, volgende argumenten voorzien en de rest op hu
 - `capture_output=True`
   - hiermee kunnen we de ouput achteraf uit het resultaat opvragen
 - `text=True`
+  - dit betekent dat onze input en output streams niet gewoon op byteniveau werken (zoals dat in Bash het geval is) maar tekst bevatten met een encodering
 - `shell=True`
-  - dit betekent dat we zaken kunnen uitvoeren die in onze gewone shellomgeving zouden kunnen uitvoeren
+  - dit betekent dat we builtins van onze shell kunnen gebruiken (pipes, redirection, wildcards,...)
 - `stdin`: een of ander tekstbestand dat we openen in een `with`-blok (tenzij we geen input willen lezen); het zal zijn alsof we deze input intypen nadat het commando is uitgevoerd
 
 Het resultaat van een oproep van `subprocess.run` zal een `CompletedProcess` zijn. Dit is een object waar we volgende informatie uit zullen kunnen ophalen:
