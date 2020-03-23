@@ -1,4 +1,4 @@
-# Aha: een simpele spam filter (geen verplichte leerstof!)
+# Aha: een simpele spam filter
 {% instructions %}
 
 Gebruik de kennis die je intussen bezit om een kleine spam filter te schrijven. Deze werkt als volgt:
