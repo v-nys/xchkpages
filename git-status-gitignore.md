@@ -6,4 +6,8 @@ Bijgevolg: als je `git status -u` (of gewoon `git status`) uitvoert, zal je gé�
 Let op, dit is wel alleen zo als de bestanden ook niet voorkomen in de projectgeschiedenis. Als ze daar *wel* in staan, worden ze niet beïnvloed door `.gitignore`. Wijzigingen in de working directory zullen dus vermeld worden (in de groep "Changes not staged for commit") en je kan de files opnieuw stagen.
 
 ## Opdracht
+.. important::
+
+   Als je opdracht enkel geweigerd wordt "indien `false`" en aanvaard wordt "indien `true`", betekent dat dat je gewoon op de knop mag klikken nadat je de tekst hebt gelezen.
+
 {% instructions %}
