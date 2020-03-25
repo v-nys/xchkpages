@@ -1,4 +1,9 @@
 # De Python Read-Evaluate-Print Loop (REPL)
+
+## Filmpje
+[![Filmpje REPL](https://i9.ytimg.com/vi/Yb4uj-gsEsA/mq1.jpg?sqp=CJ6p7fMF&rs=AOn4CLBCORg27ZoQ3WEyt8rFKmaRYIvzfw)](https://youtu.be/Yb4uj-gsEsA)
+
+## Wat is de REPL / Python shell?
 Als je IDLE opstart, krijg je een systeemboodschap te zien, gevolgd door `>>>`. Deze `>>>` wijst erop dat je je bevindt in een Read-Evaluate-Print Loop (REPL), ook wel Python shell genoemd. Net als Powershell (of, voor wie Mac gebruikt, bash of zsh) is dit een interactieve omgeving. De commando's die je hier kan intypen verschillen echter van die in Powershell, bash of zsh. Wat hier wel werkt, zijn **statements** in Python.
 
 ## statements en expressies
@@ -38,9 +43,6 @@ In de REPL kan je statements intypen en zullen deze worden uitgevoerd. Als de st
 .. warning::
 
    Let op, het is niet omdat er iets getoond wordt, dat de statement ook een expressie is. Sommige statements die geen expressie zijn tonen ook dingen op het scherm.
-
-## Filmpje
-[YouTube](https://youtu.be/Yb4uj-gsEsA)
 
 ## Opdracht
 Voer opgave 2.2 van [Spronck](http://www.spronck.net/pythonbook/pythonboek.pdf) (blz. 14) uit. Geef het Pythonbestand de naam die gebruikt wordt in onderstaande instructies. Gebruik geen enkele spatie in je bestand!
