@@ -25,7 +25,13 @@ Nu kunnen we `useful_function()` oproepen in `my_main_module.py`. Let wel op: we
 ## Wat kunnen we precies importeren?
 .. warning::
 
-   Deze content bevatte een fout. Ik ben aan het corrigeren. Je kan deze knoop even niet afwerken.
+   De importmechanismen van Python zijn erg complex. Je vindt een volledige uitleg [hier](https://docs.python.org/3/reference/import.html#importsystem), maar de kans is klein dat je er op dit punt iets aan hebt.
+
+Python kan importeren vanaf verschillende locaties. Welke locaties dat zijn hangt af van zowel je Pythoninstallatie als je eigen systeeminstellingen. Je kan echter wel volgende vuistregels hanteren:
+
+- als je een script uitvoert (bv. met `python Documents/scripts/my_script.py`) kan je andere modules importeren die in diezelfde folder staan
+- als je een REPL opstart, kan je modules importeren die in je de folder staan waarin je de REPL hebt opgestart
+- ingebouwde modules en modules die je via `pip` hebt geïnstalleerd, kan je importeren zoals in de documentatie wordt aangegeven
 
 ## Importeren wat je nodig hebt
 Modules bevatten soms veel meer functionaliteit dan je nodig hebt. Tenzij je echt véél functionaliteit uit een bepaalde module nodig hebt, doe je er beter aan uitdrukkelijk te zeggen welke stukjes je nodig hebt. Dat doe je met volgende syntax: `from <module> import <identifier1>, <identifier2>,...`
@@ -63,6 +69,6 @@ Dit zal **niet** tot een foutmelding leiden, maar wel tot subtiele bugs. Het mec
 Online kan je misschien code tegenkomen die gebruik maakt van complexere imports. Hoogstwaarschijnlijk gaat het dan over relatieve of absolute imports. Wij behandelen deze niet in de cursus OS Scripting, maar je kan er [hier](https://realpython.com/absolute-vs-relative-python-imports/) meer over lezen.
 
 ## Oefening
-.. warning::
+{% instructions %}
 
-   Deze content bevatte een fout. Ik ben aan het corrigeren. Je kan deze knoop even niet afwerken.
+Veronderstel dat je in `~/Documents/scripts` staat met daarin een submap `test`. In `test` staat een file met naam `my_module.py` en in je huidige map staat een module `helper_module.py`. In `my_module.py` staat bovenaan `import helper_module`. Antwoord met `waar` of `niet waar` op de vraag: "dit zal onder het defaultmechanisme werken als je je script opstart met `python test/my_module.py`".
