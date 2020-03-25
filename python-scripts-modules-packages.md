@@ -1,5 +1,8 @@
 # Modules vs. scripts vs. packages
 
+## Filmpje
+[![Filmpje modules, scripts en packages](https://i9.ytimg.com/vi/VUVqrhjl-TE/mq2.jpg?sqp=CO7B7PMF&rs=AOn4CLDF9a5-SkZYMjA-APmSvblBThKJIA)](https://youtu.be/VUVqrhjl-TE)
+
 ## Modules vs. scripts
 We spreken in Python soms over scripts en soms over modules. Wat is nu het verschil? Technisch gesproken is er niet echt een. Het zijn allebei bestanden met de extensie `.py`.
 
@@ -24,9 +27,6 @@ De syntax om een package te installeren is (uit te voeren **buiten** de REPL): `
    Let er op dat je eerst je virtuele omgeving hebt geactiveerd voor je een package installeert. We willen alles zo clean mogelijk houden!
 
 Op dit ogenblik bekijken we niet hoe je zelf packages schrijft. Dat is wat je zal doen als je code hebt geschreven die je wil delen met anderen die niet noodzakelijk aan hetzelfde project aan het werken zijn als jij.
-
-## Filmpje
-[![Filmpje modules, scripts en packages](https://i9.ytimg.com/vi/VUVqrhjl-TE/mq2.jpg?sqp=CO7B7PMF&rs=AOn4CLDF9a5-SkZYMjA-APmSvblBThKJIA)](https://youtu.be/VUVqrhjl-TE)
 
 ## Oefening
 {% instructions %}

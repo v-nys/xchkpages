@@ -1,4 +1,8 @@
 # Basis importeren van functionaliteit
+
+## Filmpje
+[![Filmpje importeren](https://i9.ytimg.com/vi/twnAT5DmJVY/mq1.jpg?sqp=CImm7fMF&rs=AOn4CLDNZxPQ1P2iyT9WNRGGYPAIQvUpXQ)](https://youtu.be/twnAT5DmJVY)
+
 Meer dan 99% van de code die je nodig hebt voor zowat elke taak bestaat al. Hoe gebruik je ze? Door ze te importeren. Met behulp van het sleutelwoordje `import` kan je variabelen, functies of klassen die al bestaan buiten je module gebruiken binnen je module.
 
 ## Basisgebruik
