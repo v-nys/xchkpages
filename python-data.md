@@ -1,4 +1,10 @@
 # Primitieve data in Python
+
+## Filmpje
+[![Filmpje primitieve data](https://i9.ytimg.com/vi/VUVqrhjl-TE/mq2.jpg?sqp=CO7B7PMF&rs=AOn4CLDF9a5-SkZYMjA-APmSvblBThKJIA)](https://youtu.be/EuqAPuhXzOw)
+
+## Wat is primitieve data?
+
 Een primitief datatype is een soort van data die niet bestaat uit kleinere onderdeeltjes. Er zijn nog andere soorten data, maar die bestaan uit kleinere bouwsteentjes. Volgende vier datatypes zijn de atomen van de Pythonwereld, omdat ze niet verder kunnen worden opgedeeld:
 
 * strings (met andere woorden, tekst)
@@ -11,9 +17,6 @@ Dit zijn er een pak minder dan sommige andere talen. Python heeft bijvoorbeeld g
 .. warning::
 
    We volgen een vaste afspraak rond de schrijfwijze van strings: als we kunnen, gebruiken we dubbele quotes. Als we dubbele quotes nodig hebben in onze tekst, gebruiken we enkele quotes. We gebruiken ook enkele quotes als we in onze tekst dubbele en enkele quotes nodig hebben.
-
-## Filmpje
-[YouTube](https://youtu.be/EuqAPuhXzOw)
 
 ## Opdracht
 {% instructions %}
