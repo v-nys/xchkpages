@@ -1,7 +1,7 @@
 # Primitieve data in Python
 
 ## Filmpje
-[![Filmpje primitieve data](https://i9.ytimg.com/vi/VUVqrhjl-TE/mq2.jpg?sqp=CO7B7PMF&rs=AOn4CLDF9a5-SkZYMjA-APmSvblBThKJIA)](https://youtu.be/EuqAPuhXzOw)
+[![Filmpje primitieve data](https://i9.ytimg.com/vi/EuqAPuhXzOw/mq1.jpg?sqp=CNS-7fMF&rs=AOn4CLCU35qtJl5RVw7p8SxAfnXSBUswVA)](https://youtu.be/EuqAPuhXzOw)
 
 ## Wat is primitieve data?
 
