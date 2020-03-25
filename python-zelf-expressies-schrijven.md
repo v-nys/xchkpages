@@ -1,16 +1,18 @@
 # zelf expressies schrijven
+
+## Filmpje
+[![Filmpje zelf expressies schrijven](https://i9.ytimg.com/vi/-89-UK4Gqyw/mq2.jpg?sqp=CJzB7fMF&rs=AOn4CLBOLLWKrQ8xxFFz0EeWnZNzBrr4vw)](https://youtu.be/-89-UK4Gqyw)
+
+## Te kennen syntax
 Zie [Spronck](http://www.spronck.net/pythonbook/pythonboek.pdf), sectie 3.3.1 tot 3.3.3.
 
-Te kennen constructies:
+We maken gebruik van volgende operatoren:
 
 * ronde haakjes
 * `+` (voor getallen en voor strings)
 * `-`
 * `*`
 * `/`
-
-## Filmpje
-[YouTube](https://youtu.be/-89-UK4Gqyw)
 
 ## Oefening
 {% instructions %}
