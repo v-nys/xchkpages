@@ -1,12 +1,14 @@
 # Printen in Python
+
+## Filmpje
+[![Filmpje printen](https://i9.ytimg.com/vi/E3yfJn9CpeU/mq1.jpg?sqp=CMS_7fMF&rs=AOn4CLAa7892ZDHLLqp_ZChcjsEYt1xipw)](https://youtu.be/E3yfJn9CpeU)
+
+## Opmerkingen
 Zie [Spronck](http://www.spronck.net/pythonbook/pythonboek.pdf), sectie 3.1. Enkele aantekeningen hierbij:
 
 - `print` is inderdaad een functie
 - `print` gevolgd door ronde haakjes met eventueel iets tussen is een **functieoproep**
 - wij zullen steeds maar één zaak afprinten, dus we zullen geen verschillende waarden tussen de haakjes van `print` zetten
-
-## Filmpje
-[YouTube](https://youtu.be/E3yfJn9CpeU)
 
 ## Oefening
 {% instructions %}
