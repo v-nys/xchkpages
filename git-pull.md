@@ -22,7 +22,7 @@ Om deze oefening te maken, doe je volgende zaken:
 2. Maak op je remote het bestand met de naam aan die vermeld wordt in de gegenereerde instructies hierboven.
   - Indien je Bitbucket gebruikt, kan je dat doen met de knop "Add file" op de screenshot hieronder.
     - Zorg er dan op het volgende scherm zeker voor dat je de bestandsnaam ingeeft exact zoals hij hierboven gevraagd wordt.
-    - Je mag deze file leeg laten. Het maakt niet uit wat je er in plaatst.
+    - Het maakt niet uit wat je in deze file plaatst, maar Bitbucket aanvaardt geen lege file. Zet er gewoon iets in.
     - Klik daarna onderaan op de knop "Commit".
 3. Nu ligt het logboek van je remote `origin` voor op dat van je lokale repository. Breng je lokale repository up-to-date met het juiste commando. Lees aandachtig bovenstaande tekst voor je beslist wel commando dat is...
 4. Als het updaten goed uitgevoerd is, zie je normaal onder andere de output `Updating` gevolgd door een commit hash.
