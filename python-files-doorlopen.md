@@ -13,7 +13,7 @@ Gebruik de kennis die je intussen hebt om een lijst met absolute paden van files
 - Pas de inhoud van je `for`-lus aan zodat het absolute pad wordt getoond. Het absolute pad krijg je door de functie `os.path.join` op te roepen met als eerste argument je directory en als tweede argument de naam van een file in die directory.
 
 ## Voorbeeldinteractie
-Een `> ` betekent dat er tekst volgt die door de gebruikr wordt ingetypt.
+Een `> ` betekent dat er tekst volgt die door de gebruiker wordt ingetypt.
 
 ```text
 Welke directory moet getoond worden?

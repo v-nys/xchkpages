@@ -13,7 +13,7 @@ Gebruik de kennis die je intussen na te gaan of een `.txt`-file spam bevat. Je z
   - Ga met een geneste `for`-lus duur de woorden in de regel. Als je een woord tegenkomt dat verboden is (gebruik `if` en `==`), dan zet je de variabele die aangeeft of je file spam bevat op `True`.
 
 ## Voorbeeldinteracties
-Twee voorbeelden volgen. Een `> ` betekent dat er tekst volgt die door de gebruikr wordt ingetypt.
+Twee voorbeelden volgen. Een `> ` betekent dat er tekst volgt die door de gebruiker wordt ingetypt.
 
 Eerste voorbeeld:
 

@@ -11,7 +11,7 @@ Gebruik de kennis die je intussen na te gaan of een string spam bevat bevat. Je 
 - Als je variabele uiteindelijk op `True` staat, is de zin spam. Anders niet.
 
 ## Voorbeeldinteracties
-Drie voorbeelden volgen. Een `> ` betekent dat er tekst volgt die door de gebruikr wordt ingetypt.
+Drie voorbeelden volgen. Een `> ` betekent dat er tekst volgt die door de gebruiker wordt ingetypt.
 
 Eerste voorbeeld:
 
