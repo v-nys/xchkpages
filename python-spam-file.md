@@ -14,7 +14,7 @@ Gebruik de kennis die je intussen na te gaan of een `.txt`-file spam bevat. Je z
 - Geef via `return`, nadat je alle regels hebt doorlopen, `True` of `False` terug naargelang de file spam is of niet.
 
 ## Voorbeeldinteracties
-Onderstaande voorbeelden tonen wat je ziet in een REPL. `>>>` betekent dat er iets wordt ingetypt in de REPL`, `>` betekent dat er input wordt gelever aan het programma.
+Onderstaande voorbeelden tonen wat je ziet in een REPL. `>>>` betekent dat er iets wordt ingetypt in de REPL, `>` betekent dat er input wordt gelever aan het programma.
 
 Eerste voorbeeld:
 
