@@ -13,7 +13,7 @@ Gebruik de kennis die je intussen na te gaan of een `.txt`-file spam bevat. Je z
 - Doorloop in die functie elke regel.
   - Eerst strip je de regel met `strip()`. Anders zullen je regels newlines bevatten en kunnen er problemen zijn met woorden op het einde van een zin.
   - Daarna kan je de regel als argument geven aan de functie `line_is_spam` uit `python_spam_regel_functie`.
-  - Als een regel in een file spam is, is heel de file spam.
+  - Als een regel in een file spam is, is heel de file spam, dus mag je de variabele `is_spam` op `True` zetten.
 - Geef via `return`, nadat je alle regels hebt doorlopen, `True` of `False` terug naargelang de file spam is of niet.
 
 ## Voorbeeldinteracties
