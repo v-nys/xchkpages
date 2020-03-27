@@ -5,5 +5,9 @@ Dit kan problematisch zijn als we een stukje code hebben dat geen rekening houdt
 
 Bijvoorbeeld: `"     hello, world!    ".strip()` heeft als returnwaarde `"hello, world!"`. Dezelfde string, maar geen whitespace langs links of rechts. Het hoeft niet om spaties te gaan. Ook `"\thello, world!\n".strip()` heeft als returnwaarde `"hello, world!"`.
 
+.. warning::
+
+   Enkel de whitespace langs links en rechts wordt verwijderd! `"hello,         world!"` blijft onveranderd, omdat de whitespace zich tussenin stukken bevindt die geen whitespace zijn!
+
 ## Oefening
 {% instructions %}
