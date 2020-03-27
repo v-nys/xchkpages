@@ -12,7 +12,7 @@ Gebruik de kennis die je intussen bezit om een kleine spam filter te schrijven. 
 3. De filter print voor elke file in deze map of het een spambericht is of niet. Een bericht is een spambericht als het een van de woorden "inheritance", "lottery" of "viagra" bevat. Woorden zijn delen van een string die gescheiden zijn door spaties. Je mag veronderstellen dat er geen leestekens gebruikt zijn.
 
 ## Aanpak
-- Definieer een functie `spam_filter` zonder argumenten.
+- Definieer een functie `spam_filter` zonder parameters.
 - Gebruik (in deze functie) je kennis over het doorlopen van files om:
   1. Het pad naar een directory te vragen aan de gebruiker.
   2. Een lijst aan te maken van alle absolute bestandsnamen in deze directory.
