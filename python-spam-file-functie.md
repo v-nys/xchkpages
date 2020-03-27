@@ -12,7 +12,7 @@ Gebruik de kennis die je intussen na te gaan of een `.txt`-file spam bevat. Je z
 - Vervang de `print` die aangeeft dat een file geen spam is door `False`.
 
 ## Voorbeeldinteracties
-Onderstaande voorbeelden tonen wat je ziet in een REPL. `>>>` betekent dat er iets wordt ingetypt in de REPL, `>` betekent dat er input wordt gelever aan het programma.
+Onderstaande voorbeelden tonen wat je ziet in een REPL. `>>>` betekent dat er iets wordt ingetypt in de REPL, `>` betekent dat er input wordt gelever aan het programma. Test zelf uit met voldoende voorbeeldbestanden.
 
 ```text
 >>> import python_spam_file_functie
