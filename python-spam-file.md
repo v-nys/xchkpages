@@ -4,20 +4,23 @@
 Gebruik de kennis die je intussen na te gaan of een `.txt`-file spam bevat. Je zal hiervoor de file moeten openen en nagaan of hij een verboden woord ("inheritance", "lottery" of "viagra") bevat.
 
 ## Aanpak
-- Gebruik `input` om het pad naar de map met files in te lezen.
+- Importeer je eerdere module `python_spam_regel_functie`.
+- Definieer een functie: `file_is_spam`, zonder parameters.
+- Gebruik in die functie `input` om het pad naar de map met files in te lezen.
   - Denk eraan: tekst die de gebruiker intypt, wordt vanzelf voorzien van escapes. Hij hoeft dus geen dubbele backslashes,... in te typen.
-- Maak een variabele die de regels van de file bevat. Hiervoor moet je de file eerst openen met `with`. De regels lezen doe je met `readlines`.
-- Maak een variabele die aangeeft of er een verboden woord is gevonden. Deze variabele start met de waarde `False`. Als je nog geen enkel woord hebt gelezen, heb je immers geen enkel verboden woord gelezen.
-- Ga met een `for`-lus door elke regel van het bestand.
-  - Splits in de `for`-lus de regel in woorden met behulp van `split`.
-  - Ga met een geneste `for`-lus duur de woorden in de regel. Als je een woord tegenkomt dat verboden is (gebruik `if` en `==`), dan zet je de variabele die aangeeft of je file spam bevat op `True`.
+- Maak in die functie een variabele die de regels van de file bevat. Hiervoor moet je de file eerst openen met `with`. De regels lezen doe je met `readlines`.
+- Maak in die functie een variabele `is_spam` die start met de waarde `False`.
+- Doorloop in die functie elke regel. Als een regel in een file spam is, is heel de file spam.
+- Geef via `return`, nadat je alle regels hebt doorlopen, `True` of `False` terug naargelang de file spam is of niet.
 
 ## Voorbeeldinteracties
-Twee voorbeelden volgen. Een `> ` betekent dat er tekst volgt die door de gebruiker wordt ingetypt.
+Onderstaande voorbeelden tonen wat je ziet in een REPL. `>>>` betekent dat er iets wordt ingetypt in de REPL`, `>` betekent dat er input wordt gelever aan het programma.
 
 Eerste voorbeeld:
 
 ```text
+>>> import python_spam_file
+>>> python_spam_file.file_is_spam()
 Welke file moet gecontroleerd worden?
 > /home/vincent/Documents/suspicious_file.txt
 Deze file bevat spam!
@@ -26,6 +29,7 @@ Deze file bevat spam!
 Tweede voorbeeld:
 
 ```text
+>>> python_spam_file.file_is_spam()
 Welke file moet gecontroleerd worden?
 > /home/vincent/Documents/innocuous_file.txt
 Deze file is in orde!
