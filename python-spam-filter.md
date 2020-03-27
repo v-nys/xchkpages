@@ -2,7 +2,7 @@
 
 .. danger::
 
-   Je mag deze oefening al maken als je wil, maar ik ga twee kleinere oefeningen introduceren om hier naar op te bouwen. Eén om na te gaan of één file spam is, een andere om de files in een map te tonen.
+   Je mag deze oefening al maken als je wil, maar ik ben nog tips aan het uitschrijven over hoe je ze best oplost.
 
 ## Opgave
 Gebruik de kennis die je intussen bezit om een kleine spam filter te schrijven. Deze werkt als volgt:
