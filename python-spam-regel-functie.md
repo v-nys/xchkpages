@@ -24,4 +24,6 @@ Kopieer je code om een regel te controleren op spam en pas je check aan, zodat h
 ## Automatische controle
 {% instructions %}
 
-- Wijk niet af van de gegeven aanpak. Gebruik exact de naam `line_is_spam` en zorg dat de functie één argument krijgt.
+.. warning::
+
+   Wijk niet af van de gegeven aanpak. Gebruik exact de naam `line_is_spam` en zorg dat de functie één argument krijgt.
