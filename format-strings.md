@@ -1,5 +1,8 @@
 # Format strings
 
+## Filmpje
+[![Filmpje format strings](https://i9.ytimg.com/vi/twnAT5DmJVY/mq1.jpg?sqp=CImm7fMF&rs=AOn4CLDNZxPQ1P2iyT9WNRGGYPAIQvUpXQ)](https://youtu.be/KFTUIlb0Sk4)
+
 ## Basisprincipe
 "Format strings" zijn eigenlijk gewoon strings, maar ze worden wat anders genoteerd. Het verschil in notatie staat toe even "uit tekstmodus" te springen, een berekening te doen en die dan op te nemen in de string.
 
