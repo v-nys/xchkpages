@@ -4,11 +4,12 @@
 Gebruik de kennis die je intussen hebt om een lijst met absolute paden van files in een directory te tonen.
 
 ## Aanpak
-- Gebruik `input` om het pad naar de map met files in te lezen.
+- Schrijf een functie `show_files_in_directory` zonder argumenten.
+- Gebruik in die functie `input` om het pad naar de map met files in te lezen.
   - Denk eraan: tekst die de gebruiker intypt, wordt vanzelf voorzien van escapes. Hij hoeft dus geen dubbele backslashes,... in te typen.
-- Gebruik `os.listdir` met als argument het ingetypte pad om te weten te komen welke files in de map staan. Je krijgt alleen de relatieve paden te zien.
+- Gebruik daarna, nog steeds in de functie, `os.listdir` met als argument het ingetypte pad om te weten te komen welke files in de map staan. Je krijgt alleen de relatieve paden te zien.
   - Je zal `os` eerst moeten importeren om dit te kunnen doen.
-- Doorloop met een `for`-lus de lijst met bestandsnamen en print elke bestandsnaam op het scherm.
+- Doorloop, nog steeds in de functie, met een `for`-lus de lijst met bestandsnamen en print elke bestandsnaam op het scherm.
   - Dit toont je de juiste files, maar toont enkel het relatieve pad. **Test al een keer uit op je eigen machine voor je verder gaat.**
 - Pas de inhoud van je `for`-lus aan zodat het absolute pad wordt getoond. Het absolute pad krijg je door de functie `os.path.join` op te roepen met als eerste argument je directory en als tweede argument de naam van een file in die directory.
 
