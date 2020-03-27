@@ -12,7 +12,7 @@ Gebruik de kennis die je intussen hebt om een lijst met absolute paden van files
 - Na je `for` geef je de variabele terug met een `return`.
 
 ## Voorbeeldinteractie
-Onderstaande voorbeelden tonen wat je ziet in een REPL. `>>>` betekent dat er iets wordt ingetypt in de REPL, een `> ` betekent dat er tekst volgt die door de gebruiker wordt ingetypt.
+Onderstaande voorbeelden tonen wat je ziet in een REPL. `>>>` betekent dat er iets wordt ingetypt in de REPL.
 
 ```text
 >>> import python_lijst_absolute_paden

@@ -19,7 +19,7 @@ Gebruik de kennis die je intussen bezit om een kleine spam filter te schrijven. 
   3. Deze lijst te koppelen aan een variabele `files`.
 - Gebruik (nog steeds in deze functie) een `for` lus die over deze files gaat.
   - Voor elke file wordt gezegd of het spam is of niet.
-    - Herschrijf hiervoor je functie om een file wel of niet als spam te klasseren zodat ze de filenaam als argument krijgt en zodat ze een boolean (`True` of `False`) teruggeeft.
+    - Gebruik hiervoor je functie om een file wel of niet als spam te klasseren met de filenaam als argument.
 
 ## Voorbeeldinteractie
 Een voorbeelduitvoer van het script, als er drie files in de te doorzoeken map staan:
