@@ -10,7 +10,7 @@ Gebruik de kennis die je intussen na te gaan of een `.txt`-file spam bevat. Je z
   - Denk eraan: tekst die de gebruiker intypt, wordt vanzelf voorzien van escapes. Hij hoeft dus geen dubbele backslashes,... in te typen.
 - Maak in die functie een variabele die de regels van de file bevat. Hiervoor moet je de file eerst openen met `with`. De regels lezen doe je met `readlines`.
 - Maak in die functie een variabele `is_spam` die start met de waarde `False`.
-- Doorloop in die functie elke regel. Als een regel in een file spam is, is heel de file spam.
+- Doorloop in die functie elke regel. Als een regel in een file spam is, is heel de file spam. Dit kan je controleren met je functie uit de eerdere oefening die zegt of één regel spam is.
 - Geef via `return`, nadat je alle regels hebt doorlopen, `True` of `False` terug naargelang de file spam is of niet.
 
 ## Voorbeeldinteracties
