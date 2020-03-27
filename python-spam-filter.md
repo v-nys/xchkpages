@@ -25,6 +25,9 @@ Gebruik de kennis die je intussen bezit om een kleine spam filter te schrijven. 
 Een voorbeelduitvoer van het script, als er drie files in de te doorzoeken map staan:
 
 ```text
+>>> import python_spam_filter
+Welke directory wil je analyseren?
+> /home/vincent
 /home/vincent/file1.txt: spam
 /home/vincent/file2.txt: geen spam
 /home/vincent/file3.txt: spam
