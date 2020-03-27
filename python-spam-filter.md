@@ -1,9 +1,5 @@
 # Een simpele spam filter
 
-.. danger::
-
-   Je mag deze oefening al maken als je wil, maar ik ben nog tips aan het uitschrijven over hoe je ze best oplost.
-
 ## Opgave
 Gebruik de kennis die je intussen bezit om een kleine spam filter te schrijven. Deze werkt als volgt:
 
