@@ -1,6 +1,9 @@
 # Functies
 Functies zijn herbruikbare stukjes code die één welbepaalde taak uitvoeren. Scripts zijn dat typisch ook, maar functies zijn kleinere eenheden en hebben een vaste syntax.
 
+## Filmpje
+[![Filmpje basisidee functies](https://i9.ytimg.com/vi/twnAT5DmJVY/mq1.jpg?sqp=CImm7fMF&rs=AOn4CLDNZxPQ1P2iyT9WNRGGYPAIQvUpXQ)](https://youtu.be/FqyskbkdnWA)
+
 ## Enkele voorbeeldfuncties
 - de functie `print`, waarmee je iets op het scherm kan tonen
 - de functie `pow`, die je zegt welke uitkomst je krijgt als je één getal verheft tot de macht van een ander getal

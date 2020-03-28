@@ -1,4 +1,9 @@
 # methode: `list.append()`
+
+## Filmpje
+[![Filmpje append](https://i9.ytimg.com/vi/twnAT5DmJVY/mq1.jpg?sqp=CImm7fMF&rs=AOn4CLDNZxPQ1P2iyT9WNRGGYPAIQvUpXQ)](https://youtu.be/rqPWJRsiZF4)
+
+
 Als je een lijst wil uitbreiden met een nieuw element, gebruik je de methode `append`. Je geeft het element dat je wil toevoegen mee als argument.
 
 Bijvoorbeeld:

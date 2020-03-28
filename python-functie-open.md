@@ -1,6 +1,9 @@
 # `open` voor leestoegang
 Met de functie `open()` open je een bestand om te lezen of te schrijven.
 
+## Filmpje
+[![Filmpje open](https://i9.ytimg.com/vi/twnAT5DmJVY/mq1.jpg?sqp=CImm7fMF&rs=AOn4CLDNZxPQ1P2iyT9WNRGGYPAIQvUpXQ)](https://youtu.be/LL4b2m6-j6Y)
+
 ## Syntax
 Basisgebruik van `open()` ziet er als volgt uit:
 

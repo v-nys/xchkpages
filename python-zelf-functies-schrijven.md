@@ -1,7 +1,7 @@
 # Zelf functies schrijven
 
-## Motivatie
-Zie Spronck, 8.1 (blz. 95 en 96).
+## Filmpje
+[![Filmpje basisidee functies](https://i9.ytimg.com/vi/twnAT5DmJVY/mq1.jpg?sqp=CImm7fMF&rs=AOn4CLDNZxPQ1P2iyT9WNRGGYPAIQvUpXQ)](https://youtu.be/USNCwktLdrg)
 
 ## Syntax
 De syntax om zelf te beschrijven **hoe een functie werkt** is als volgt:

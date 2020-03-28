@@ -1,4 +1,8 @@
 # readlines
+
+## Filmpje
+[![Filmpje readlines](https://i9.ytimg.com/vi/twnAT5DmJVY/mq1.jpg?sqp=CImm7fMF&rs=AOn4CLDNZxPQ1P2iyT9WNRGGYPAIQvUpXQ)](https://youtu.be/lNAk0_4Dv7Q)
+
 Het gebeurt erg vaak dat elke regel van een bestand (configuratiebestand, databestand,...) één stukje nuttige info bevat en dat deze info niet gespreid is over meerdere regels. Daarom is het erg handig een bestand regel per regel te kunnen inlezen.
 
 Dit doe je met de methode `readlines()` van een file object. Het returntype hiervan is een lijst van strings, één per regel in het bestand. Let op: elke string stelt een regel voor en dat betekent dat er newline karakters aan het einde van deze regel vasthangen!

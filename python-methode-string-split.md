@@ -1,4 +1,8 @@
 # split
+
+## Filmpje
+[![Filmpje split](https://i9.ytimg.com/vi/twnAT5DmJVY/mq1.jpg?sqp=CImm7fMF&rs=AOn4CLDNZxPQ1P2iyT9WNRGGYPAIQvUpXQ)](https://youtu.be/kzDwTDde_-U)
+
 Vaak is het handig een stuk tekst op te breken in meerdere stukken tekst. Bijvoorbeeld de laatste adresregel op een brief in een postcode en een gemeentenaam. Dit noemen we "splitsen" van een string. Je kan dit zelf doen met behulp van de methode `split`, uitgevoerd op de tekst die je wil splitsen, met als argument de tekst die twee "belangrijke" stukken tekst verbindt.
 
 Bijvoorbeeld: `"2800 Mechelen".split(" ")` levert je `["2800", "Mechelen"]`. De spatie wordt gebruikt om de string "in stukken te kappen". Deze twee stukken staan in een lijst en de spatie is **niet meer aanwezig** in deze stukken.

@@ -1,4 +1,8 @@
 # Returnwaarden van functies
+
+## Filmpje
+[![Filmpje basisidee functies](https://i9.ytimg.com/vi/twnAT5DmJVY/mq1.jpg?sqp=CImm7fMF&rs=AOn4CLDNZxPQ1P2iyT9WNRGGYPAIQvUpXQ)](https://youtu.be/LgWiHLk5RFQ)
+
 Functies kunnen je een bepaald resultaat opleveren. We noemen dit resultaat de **returnwaarde** (of "retourwaarde") van de functie.
 
 Zo levert `pow(3,3)` je het resultaat `27` op, omdat `3 * 3 * 3` gelijk is aan `27`. Gelijkaardig: `max(3,5,4)` heeft als returnwaarde `5`, omdat dat het antwoord is op de vraag: "wat is het maximum van de gegeven getallen?"
