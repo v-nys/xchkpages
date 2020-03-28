@@ -5,3 +5,7 @@ Dit doe je met de methode `readlines()` van een file object. Het returntype hier
 
 {% instructions %}
 Schrijf een bestandje met de naam `myfile.txt` met daarin enkele regels tekst. Schrijf dan een Python script met de gevraagde naam dat de inhoud van `myfile.txt` toont op je scherm. Het is niet erg als er extra witregels verschijnen tussen de regels met echte inhoud, maar kan je verklaren waarom dit gebeurt?
+
+.. danger::
+
+   Voor de automatische controle probeer je de extra witregels **niet** weg te werken, want de modeloplossing verwacht dit niet!
