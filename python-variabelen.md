@@ -1,4 +1,8 @@
 # Variabelen in Python
+
+## Filmpje
+![Filmpje variabelen] (https://youtu.be/fwG0q2v0HTQ)
+
 Zie [Spronck](http://www.spronck.net/pythonbook/pythonboek.pdf), 4.1 tot en met 4.2.1.
 
 Let op: een variabele houdt inderdaad de positie van een waarde in het geheugen bij, **maar** er is niets dat verbiedt dat twee variabelen dezelfde positie bijhouden. Je ziet een variabele best als een naamkaartje voor een waarde in het geheugen. Dat naamkaartje kan losgemaakt worden en kan ergens anders gehangen worden. Volgende code toont dit aan:
