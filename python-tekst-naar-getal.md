@@ -3,7 +3,7 @@
 ## Filmpje
 [Filmpje van tekst naar getal en omgekeerd](https://youtu.be/oO_MXKX904M)
 
-
+## Omzetingen van tekst naar getal in Python
 
 De naam van het type voor tekst in Python is `str`. De naam van het type voor een geheel getal in Python is `int`. Als je dus bijvoorbeeld `str(492)` schrijft, krijg je als resultaat **de tekst** `"492"` terwijl je begonnen bent van **het getal** `492`.
 

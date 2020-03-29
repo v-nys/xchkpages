@@ -3,7 +3,7 @@
 ## Filmpje
 [Filmpje booleaanse expressies schrijven](https://youtu.be/3yGqxZXX7LE)
 
-
+## Wat zijn booleaanse expressies?
 Zie [Spronck](http://www.spronck.net/pythonbook/pythonboek.pdf), 6.1.2 en 6.1.4.
 
 * `<`
