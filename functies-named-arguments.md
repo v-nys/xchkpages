@@ -1,4 +1,10 @@
 # Functies met keyword arguments
+
+## Filmpje
+[Filmpje functies met keyword arguments](https://youtu.be/sGG_qQ9xthI)
+
+
+
 Het is niet altijd makkelijk op het zicht te zien wat alle argumenten in een functieoproep betekenen. Sommige functies en methodes kan je oproepen met "keyword arguments". Dit zijn argumenten waarvan je uitdrukkelijk de rol aangeeft.
 
 Bijvoorbeeld, de methode `str.split` kan je zo oproepen:
