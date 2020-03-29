@@ -1,4 +1,9 @@
 # Python indentatie
+
+## Filmpje
+[Filmpje indentatie](https://youtu.be/HnRs2BHvX80)
+
+
 Python is in één opzicht erg zeldzaam onder de programmeertalen. In Python wordt gebruik gemaakt van "significant whitespace". Voor de meeste programmeertalen is er **in de structuur van code** geen verschil tussen een spatie, een newline, een tab, tien spaties, zeven newlines, drie tabs,... In Python zijn dit allemaal verschillende zaken.
 
 Bijvoorbeeld, in C♯ kunnen we dit schrijven (het is geen probleem als je C♯ niet kent, dit is maar om het idee te tonen):
