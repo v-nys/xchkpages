@@ -5,6 +5,10 @@ We zijn op het punt dat we een script kunnen schrijven dat ons als netwerkbeheer
 Volgende filmpjes tonen je stap voor stap hoe je een virtuele machine opzet waarop je je taken als netwerkbeheerder kan uittesten.
 [Playlist](https://www.youtube.com/playlist?list=PL4cBafvTnZF9OM8RVW5aVzdAWm31nEmMV)
 
+.. warning::
+
+   In het derde filmpje staat er al een mapje `/home/ubuntussh/.ssh` op je VM. Normaal heb je dat niet na een nieuwe installatie. Los op door een mapje aan te maken: `mkdir .ssh`
+
 Mogelijk kan je de eerste vier stappen al zelfstandig uitvoeren. De topics zijn:
 
 1. Ubuntu **server editie** (18.04 LTS) installeren met OpenSSH server
