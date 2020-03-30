@@ -27,4 +27,5 @@ Schrijf eerst het script `sshtest.py` uit het zesde filmpje. Doe daarna volgende
 
 ## Afwerken
 {% instructions %}
-Check je bestanden in in je repository. Contacteer de lector wanneer je denkt dat je project af is.
+
+Check je bestanden in in je repository. Je oefening wordt sowieso aanvaard, maar omdat ze behoorlijk complex is, betekent dat niet dat ze juist is. Contacteer de lector wanneer je denkt dat je project af is.
