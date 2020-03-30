@@ -8,6 +8,7 @@ boundary = 10
 counter = 1
 while counter <= boundary:
     print(counter)
+    counter = counter + 1
 ```
 
 ## Oefening
