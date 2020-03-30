@@ -1,6 +1,10 @@
 # Project: apparaten configureren via SSH
 We zijn op het punt dat we een script kunnen schrijven dat ons als netwerkbeheerders een heleboel werk kan uitsparen.
 
+.. danger::
+
+   Sommige studenten krijgen een `FileNotFoundError: [WinError 2] The system cannot find the file specified` wanneer ze het SSH-subproces proberen te starten. Dit komt (hoogstwaarschijnlijk) door het gebruik van een 32-bits installatie van Python op een 64-bits Windows. Herinstalleer Python dan van [deze pagina](https://www.python.org/downloads/windows/) en kies voor Python 3.8.2, Windows x86-64 executable installer.
+
 ## Virtuele machine aanmaken om netwerktoegang te simuleren
 Volgende filmpjes tonen je stap voor stap hoe je een virtuele machine opzet waarop je je taken als netwerkbeheerder kan uittesten.
 [Playlist](https://www.youtube.com/playlist?list=PL4cBafvTnZF9OM8RVW5aVzdAWm31nEmMV)
