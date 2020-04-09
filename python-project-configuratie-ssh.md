@@ -29,9 +29,11 @@ Schrijf eerst het script `sshtest.py` uit het zesde filmpje. Doe daarna volgende
   - Elke regel van deze file bevat een IPv4-adres gevolgd door een poort, bijvoorbeeld `192.168.0.191:9091`. Zoals typisch is, scheiden we host IP's en poortnummers met een dubbele punt.
 - Doorloop in je script elke regel van `hosts_and_ports.txt`.
   - Pas de string aan die je meegeeft aan `subprocess.run` zodat het je voor elke regel in `hosts_and_ports.txt` verbindt met de juiste machine.
+  - Let hierbij op dat je poortnummer niet gevolgd wordt door een newline.
 - Maak een tweede VM aan (identiek geconfigureerd aan de eerste) en ga na dat je script werkt. Let op: zorg dat je eerste VM aan staat wanneer je de tweede aanzet en voer het script uit als ze allebei aan staan.
   - Je past nog altijd port forwarding toe vanaf 127.0.0.1, maar met een andere poort voor de tweede VM. Je mapt bijvoorbeeld poort 2223 op poort 22 van de tweede VM.
-- Test na uitvoering of je script gewerkt heeft door naar beide machines te SSH'en
+- Test na uitvoering of je script gewerkt heeft door naar beide machines te SSH'en.
+  - Als je aan het testen bent kan je altijd `commands.txt` aanpassen om nieuwe bestanden aan te maken en kan je het resultaat van `subprocess.run` afprinten (bv. `print(completed)`) om eventuele foutmeldingen te zien te krijgen.
 
 ## Afwerken
 {% instructions %}
