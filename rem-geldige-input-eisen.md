@@ -23,8 +23,4 @@ Bedankt voor je input!
 Je kan deze oefening oplossen met behulp van een `while` lus en de functie `input`. Je moet volgend idee programmeren: eerst vraag je om **input** van de gebruiker (zie de functie met die naam). **Zo lang** (zie `while`) die input **niet gelijk is aan `"ja"`** en **niet gelijk is aan `"neen"`** (zie booleaanse expressies) vraag je opnieuw om input van de gebruiker (en je mag daarbij de oude input overschrijven). Daarna toon je de eindboodschap.
 
 ## Automatische controle
-.. warning::
-
-   De automatische controle voor deze knoop is nog niet af. Ik ben er mee bezig.
-
 {% instructions %}
