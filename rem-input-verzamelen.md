@@ -40,8 +40,9 @@ Wat is het volgende IP-adres? Duw meteen op enter om af te sluiten.
 
 ## Aanpak
 - Je wil een bepaalde handeling herhalen, dus je hebt een lus nodig.
-- Je weet niet op voorhand hoe vaak je deze handeling zal herhalen, dus een `while`-lus is hier geschikt.
+  - Je weet niet op voorhand hoe vaak je deze handeling zal herhalen, dus een `while`-lus is hier geschikt.
 - Zelfs als de gebruiker geen enkel adres intypt, krijg je een lijst terug. Declareer daarom een variabele die een lege lijst bevat **voor** de lus begint.
+  - De lijst is het **resultaat** van de functie. Andere code moet deze functie kunnen oproepen en dan iets kunnen doen met deze lijst, dus het volstaat niet om de lijst af te printen.
 - De lus wordt herhaald **totdat de gebruiker niets intypt**. Dat is hetzelfde als **zo lang de gebruiker wel iets intypt**.
 - Experimenteer even in de REPL. Wat gebeurt er als je `input("blabla")` uitvoert en meteen op enter duwt? Maak daar gebruik van om je lusvoorwaarde te schrijven.
 
