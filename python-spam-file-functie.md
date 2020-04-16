@@ -16,9 +16,9 @@ Onderstaande voorbeelden tonen wat je ziet in een REPL. `>>>` betekent dat er ie
 
 ```text
 >>> import python_spam_file_functie
->>> python_spam_file.file_is_spam('/home/vincent/Documents/suspicious_file.txt')
+>>> python_spam_file_functie.file_is_spam('/home/vincent/Documents/suspicious_file.txt')
 True
->>> python_spam_file.file_is_spam('/home/vincent/Documents/innocuous_file.txt')
+>>> python_spam_file_functie.file_is_spam('/home/vincent/Documents/innocuous_file.txt')
 False
 ```
 
