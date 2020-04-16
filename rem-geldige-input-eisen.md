@@ -7,7 +7,7 @@ Als we een script schrijven, hebben we liefst dat het niet helemaal fout loopt a
 Schrijf een script met de gevraagde naam (zie beneden in de automatische instructies). Dit script bevat een functie, `vraag_ja_of_neen` (zonder parameters). Wanneer deze functie wordt opgeroepen, vraagt ze de gebruiker om "ja" of "neen" te typen. Als het antwoord iets anders is dan die twee **exacte** mogelijkheden, wordt de vraag herhaald. Als het antwoord wel geldig is, wordt "Bedankt voor je input!" geprint. Je hoeft geen `return` toe te voegen.
 
 ## Voorbeeldinteractie
-Dit is iets dat je zou kunnen zien wanneer `vraag_ja_of_neen` wordt opgeroepen. Tekst voorafgegaan door `>` is tekst die de gebruiker inypt. Andere tekst wordt door het programma op het scherm getoond.
+Dit is iets dat je zou kunnen zien wanneer `vraag_ja_of_neen` wordt opgeroepen. Tekst voorafgegaan door `>` is tekst die de gebruiker inypt. Je hoeft zelf geen `>` te tonen. Andere tekst wordt door het programma op het scherm getoond.
 
 ```
 Gelieve ja of neen te antwoorden.
