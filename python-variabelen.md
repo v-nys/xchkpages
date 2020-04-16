@@ -32,4 +32,4 @@ Reken op een overzichtelijke manier het aantal seconden per week uit. Schrijf he
 - `boodschap` met waarde `"Er zijn zo veel seconden in een week:"`
 - `berekening` met het aantal seconden in een week, op basis van je andere variabelen
 
-Print aan het einde `boodschap` af, gevolgd door `berekening`. Beide mogen op een aparte regel getoond worden.
+Print aan het einde `boodschap` af, gevolgd door `berekening`. Beide mogen op een aparte regel getoond worden, dus je kan twee `print`-statements gebruiken.
