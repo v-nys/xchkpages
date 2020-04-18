@@ -2,7 +2,7 @@
 
 .. warning::
 
-   Deze inhoud is nog niet volledig. Je kan de oefening ook nog niet afwerken.
+   Je kan de oefening nog niet afwerken.
 
 Meestal tonen we getallen in decimale voorstelling, maar in de computer worden ze binair voorgesteld. Voor sommige toepassingen is het nuttig om met deze binaire voorstelling te kunnen werken. Dit gebeurt bijvoorbeeld veel in de context van IP-adressen. Om met deze voorstelling te werken, heeft Python **bitwise operatoren**. We geven ze eerst en leggen daarna uit hoe je ze gebruikt:
 
@@ -34,6 +34,8 @@ Een bitwise NOT keert de waarde van elke bit om. Dus bijvoorbeeld 11000000 in he
 ## Oefening
 {% instructions %}
 
-- netmasker van x bits toepassen op ... -> i.e. python gebruiken om netwerkadres te bekomen
-  - mag decimaal naar binair vertalen met rekenmachine
-- netwerkadres 192.168.0.0/24 en hostgedeelte 191 combineren tot uiteindelijke adres 192.168.0.191
+Schrijf een script met de gevraagde naam. Dit script print op twee regels de **binaire voorstelling** van volgende twee IP-adressen (zonder punten tussen, gewoon telkens een reeks bits):
+
+- Het netwerkadres waarop host 174.38.13.222/19 is aangesloten.
+  - Zet het adres en het netmasker eerst zelf om naar een bitstring. Dit mag je doen zoals je wil, ook met een online converter of met een rekenmachine. De binaire voorstellingen worden niet gegeven omdat het geen zin heeft dat je deze operatoren leert als je niet weet wat je aan het doen bent.
+- Het hostadres van een machine met hostgedeelte 01111111 op het subnet 192.168.0.0/24.
