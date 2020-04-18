@@ -1,9 +1,4 @@
 # Bitwise operatoren in Python
-
-.. warning::
-
-   Je kan de oefening nog niet afwerken.
-
 Meestal tonen we getallen in decimale voorstelling, maar in de computer worden ze binair voorgesteld. Voor sommige toepassingen is het nuttig om met deze binaire voorstelling te kunnen werken. Dit gebeurt bijvoorbeeld veel in de context van IP-adressen. Om met deze voorstelling te werken, heeft Python **bitwise operatoren**. We geven ze eerst en leggen daarna uit hoe je ze gebruikt:
 
 - `&` (bitsgewijze AND)
