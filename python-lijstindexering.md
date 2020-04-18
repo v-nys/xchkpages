@@ -19,6 +19,7 @@ print(mijn_lijst[0] + " " + mijn_lijst[1])
 ```
 
 # Oefening
-Neem `mijn_lijst` over uit bovenstaande code en zet in het bestand met de gevraagde naam. Schrijf daar onder één oproep van `print` die de volledige zin hierboven juist uitprint op één regel. Je *moet* daarbij de elementen uit de lijst gebruiken om de zin te vormen.
+{% instructions %}
+Neem `mijn_lijst` over uit bovenstaande code en zet in het bestand met de gevraagde naam. Behoud daarbij de naam van de variabele. Schrijf daar onder één oproep van `print` die de volledige zin hierboven juist uitprint op één regel. Je *moet* daarbij de elementen uit de lijst gebruiken om de zin te vormen.
 
 Als je je programma uitvoert, zou dus `hello world how are you?" op het scherm moeten verschijnen.
