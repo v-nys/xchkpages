@@ -26,7 +26,7 @@ Om dit in Python uit te rekenen, gebruiken we de getallen die voorgesteld worden
 ## Voorbeeld: bitwise OR
 Het idee is net hetzelfde als bij bitwise AND, maar een bit is 1 in het resultaat zodra minstens één van de bits er boven 1 is.
 
-{% pagerepo bitwise-or.png %}
+![bitwise or]({% pagerepo bitwise-or.png %})
 
 ## Bitwise NOT
 Een bitwise NOT keert de waarde van elke bit om. Dus bijvoorbeeld 11000000 in het binair (192 in het decimaal) wordt dan 00111111 in het binair (63 in het decimaal).
