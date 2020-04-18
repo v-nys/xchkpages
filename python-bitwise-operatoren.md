@@ -4,8 +4,6 @@ Meestal tonen we getallen in decimale voorstelling, maar in de computer worden z
 - `&` (bitsgewijze AND)
 - `|` (bitsgewijze OR)
 - `~` (bitsgewijze NOT)
-- `>>` (bits schuiven naar rechts)
-- `<<` (bits schuiven naar links)
 
 Zoals je ziet, zijn er een bitsgewijze AND, OR en NOT. Je kent de gewone `and`, `or` en `not` al, maar die zijn anders. Die gebruik je met booleaanse expressies. De bitwise operatoren gebruik je normaal met getallen.
 
@@ -28,10 +26,7 @@ Het idee is net hetzelfde als bij bitwise AND, maar een bit is 1 in het resultaa
 ## Bitwise NOT
 Een bitwise NOT keert de waarde van elke bit om. Dus bijvoorbeeld 11000000 in het binair (192 in het decimaal) wordt dan 00111111 in het binair (63 in het decimaal).
 
-## Bits schuiven
-Met de schuifoperator naar links kan je de bitvoorstelling van een getal langs de rechterkant "opvullen" met nullen. Bijvoorbeeld, 15 wordt in het binair voorgesteld als 1111. Als je er rechts een 0 bij zet, krijg je 11110, dus 30. Als je dat nog eens doet, krijg je 111100, dus 60. In Python schrijf je bijvoorbeeld `15 << 1` om uit te drukken: 1111, één positie naar links opgeschoven.
-
-Met de schuifoperator naar rechts doe je het omgekeerde: je verwijdert de laatste bit. Bijvoorbeeld, 111100 wordt 11110 als je de meest rechtse bit laat vallen. In Python: `60 >> 1`. 1111 wordt 111 als je de meest rechtse bit laat vallen. In Python: `1111 >> 1`.
-
-# TODO: netmasker toepassen met reeks getallen
-Eigenlijk gewoon `[host_address[0] & netmask[0],...]`.
+## Oefening
+- netmasker van x bits toepassen op ... -> i.e. python gebruiken om netwerkadres te bekomen
+  - mag decimaal naar binair vertalen met rekenmachine
+- netwerkadres 192.168.0.0/24 en hostgedeelte 191 combineren tot uiteindelijke adres 192.168.0.191
