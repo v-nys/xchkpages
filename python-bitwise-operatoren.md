@@ -1,4 +1,9 @@
 # Bitwise operatoren in Python
+
+.. warning::
+
+   Deze inhoud is nog niet volledig. Je kan de oefening ook nog niet afwerken.
+
 Meestal tonen we getallen in decimale voorstelling, maar in de computer worden ze binair voorgesteld. Voor sommige toepassingen is het nuttig om met deze binaire voorstelling te kunnen werken. Dit gebeurt bijvoorbeeld veel in de context van IP-adressen. Om met deze voorstelling te werken, heeft Python **bitwise operatoren**. We geven ze eerst en leggen daarna uit hoe je ze gebruikt:
 
 - `&` (bitsgewijze AND)
@@ -27,6 +32,8 @@ Het idee is net hetzelfde als bij bitwise AND, maar een bit is 1 in het resultaa
 Een bitwise NOT keert de waarde van elke bit om. Dus bijvoorbeeld 11000000 in het binair (192 in het decimaal) wordt dan 00111111 in het binair (63 in het decimaal).
 
 ## Oefening
+{% instructions %}
+
 - netmasker van x bits toepassen op ... -> i.e. python gebruiken om netwerkadres te bekomen
   - mag decimaal naar binair vertalen met rekenmachine
 - netwerkadres 192.168.0.0/24 en hostgedeelte 191 combineren tot uiteindelijke adres 192.168.0.191
