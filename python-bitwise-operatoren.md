@@ -38,4 +38,4 @@ Schrijf een script met de gevraagde naam. Dit script print op twee regels de **b
 
 - Het netwerkadres waarop host 174.38.13.222/19 is aangesloten.
   - Zet het adres en het netmasker eerst zelf om naar een bitstring. Dit mag je doen zoals je wil, ook met een online converter of met een rekenmachine. De binaire voorstellingen worden niet gegeven omdat het geen zin heeft dat je deze operatoren leert als je niet weet wat je aan het doen bent.
-- Het hostadres van een machine met hostgedeelte 01111111 op het subnet 192.168.0.0/24.
+- Het hostadres van een machine met hostgedeelte 10111111 op het subnet 192.168.0.0/24.
