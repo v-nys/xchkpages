@@ -10,7 +10,7 @@ print(mijn_lijst[3])
 
 Dit zal `are` tonen op het scherm. Waarom precies dat element? Omdat we beginnen te tellen vanaf 0, dus `mijn_lijst[0]` is `"hello"`, `mijn_lijst[1]` is `"world"`, enzovoort.
 
-Je mag geen getal gebruiken dat zo groot is als de totale lengte van de lijst (of groter), want dat levert een fout. Bijvoorbeeld, `mijn_lijst[6]` gebruiken zal je een `IndexError` opleveren.
+Je mag geen getal gebruiken dat zo groot is als de totale lengte van de lijst (of groter), want dat levert een fout. Bijvoorbeeld, `mijn_lijst[6]` gebruiken zal je een `IndexError` opleveren. De grootte van een lijst kan je krijgen via `len`, bijvoorbeeld `len(mijn_lijst)`, wat hier 6 zal opleveren. Het is dus fout om `mijn_lijst[len(mijn_lijst)]` te schrijven, want je kan hooguit `mijn_lijst[len(mijn_lijst) - 1]` schrijven.
 
 Je kan lijstelementen net gebruiken zoals je de elementen op zich zou gebruiken. Bijvoorbeeld:
 
