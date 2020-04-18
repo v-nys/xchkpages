@@ -71,5 +71,5 @@
 
 (call-with-output-file
     "bitwise-and.png"
-  (λ (o) (display (convert drawing 'png-bytes) o))
+  (λ (o) (display (convert (scale drawing 2) 'png-bytes) o))
   #:exists 'replace)
