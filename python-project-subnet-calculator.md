@@ -26,6 +26,10 @@ Wat is het IP-adres?
 [192, 168, 0, 1]
 ```
 
+.. important::
+
+   Je kan hier voor terugkijken naar de oefening: een IP-adres inlezen.
+
 # Stap 2: een subnetmasker opvragen
 Hier moet je niets voor toevoegen. Je kan hier ook `ask_for_number_sequence` voor gebruiken.
 
@@ -39,25 +43,44 @@ Schrijf een hulpfunctie, `is_valid_ip_address`, met één parameter, `numberlist
 
 In alle andere gevallen geeft de hulpfunctie `False` terug.
 
+.. important::
+
+   Je kan hiervoor terugkijken naar de oefening waarbij je gecontroleerd hebt of alle getallen bytes zijn (Aha: een IP-adres controleren). In die oefening werd niet gekeken of de lijst exact 4 elementen bevat, dus dat moet je nog controleren. Gebruik hiervoor `len`, zoals uitgelegd in het deeltje rond indexering van lijsten.
+
 ## Van een netmasker
 Een netmasker is geldig als het bestaat uit een doorlopende reeks 1-bits gevolgd door een doorlopende reeks 0-bits. We zullen voor het gemak toestaan dat een netmasker 32 1-bits of 32 0-bits telt (al heeft dat geen zin in het echt).
 
 De makkelijkste manier om dit te checken is via de binaire voorstelling. Schrijf een hulpfunctie, `is_valid_netmask`, met één parameter, `numberlist`. Deze functie doet volgende zaken:
 
-- ze controleert dat de lijst 4 getallen bevat
+- ze controleert dat de lijst 4 getallen bevat (anders mas de functie direct `False` teruggeven)
 - ze berekent de binaire voorstelling van het volledige netmasker
-  - hiervoor bereken je eerst de voorstelling van elk getal als *exact* 8 bits
+  - hiervoor bereken je eerst de voorstelling van elk getal als *exact* 8 bits. Zie hiervoor de uitleg rond format strings voor binaire weergave.
   - daarna plakt ze de vier voorstellingen van de getallen aan elkaar als één string, genaamd `binary_netmask`
 - ze maakt een variabele, `checking_ones` aan met beginwaarde `True`
 - ze doorloopt alle symbolen in `binary_netmask` en zet `checking_ones` op `False` zodra ze een 0 tegenkomt
 - indien ze een 1 tegenkomt terwijl `checking_ones` al op `False` staat, geeft ze aan dat het geen geldig netmasker is
-- als alle symbolen doorlopen zijn en er was geen reden om te beslissen dat het geen geldig netmasker is, is het een geldig netmasker
+- als alle symbolen doorlopen zijn en er was geen reden om te beslissen dat het geen geldig netmasker is, is het een geldig netmasker en kan je `True` teruggeven
+
+.. warning::
+
+   Ik voorzie nog een filmpje om deze stappen iets visueler uit te leggen.
 
 # Stap 4: aantal 1-bits tellen
-TODO
+In de vorige stap heb je de binaire voorstelling van het netmasker berekend. Er zijn meerdere manieren om aan het aantal 1-bits te raken, maar we houden het op een simpele aanpak:
+
+- schrijf een functie `one_bits_in_netmask` met één parameter. We verwachten dat deze ingevuld wordt met het netmasker als lijst getallen.
+- deze functie converteert eerst naar de voorstelling als een string van binaire symbolen.
+- daarna maakt ze een variabele `counter` aan met waarde 0
+- dan gaat ze met een `for`-lus over elk symbool en controleert ze of het `"1"` is of niet
+  - als het `"1"` is, verhoogt ze `counter`
+- wanneer de `for`-lus afgelopen is, geeft ze de waarde van `counter` als antwoord
 
 # Stap 5: adres van het subnet berekenen
-TODO
+Je krijgt het adres van het subnet door de bitwise AND van het hostadres en het netmasker te berekenen. Als je het hostadres en het netmasker voorstelt als lijsten van telkens 4 getallen (zoals wij dat doen), mag je de bitwise AND van het eerste getal uit de ene lijst en het eerste getal uit de andere lijst nemen, gevolgd door de bitwise AND van het tweede getal uit de ene lijst en de bitwise AND van het tweede getal uit de andere lijst, enzovoort. Schrijf een functie, `apply_network_mask`, met twee parameters `host_address` en `netmask` die dit doet en het adres van het netwerk teruggeeft als een lijst getallen.
+
+.. warning::
+
+   Ik voorzie nog een filmpje om deze stappen iets visueler uit te leggen.
 
 # Stap 6: broadcastadres berekenen
 TODO
