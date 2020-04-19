@@ -6,9 +6,9 @@ Voor het tweede project zullen we een subnetcalculator bouwen. Dit is een script
 3. geldigheid van de getallen controleren
 4. aantal 1-bits in het subnetmasker berekenen en tonen
 5. adres van het subnet berekenen en tonen
-6. broadcastadres van het subnet berekenen en tonen
-7. maximaal aantal hosts in het subnet berekenen en tonen
-8. wilcardmasker (dus bitsgewijze inverse van het subnetmasker) berekenen en tonen
+6. wilcardmasker (dus bitsgewijze inverse van het subnetmasker) berekenen en tonen
+7. broadcastadres van het subnet berekenen en tonen
+8. maximaal aantal hosts in het subnet berekenen en tonen
 
 # Stap 1: een IPv4-hostadres opvragen
 Schrijf hier een hulpfunctie, `ask_for_number_sequence`, met één parameter, `message`. Deze hulpfunctie doet volgende zaken:
@@ -82,13 +82,13 @@ Je krijgt het adres van het subnet door de bitwise AND van het hostadres en het 
 
    Ik voorzie nog een filmpje om deze stappen iets visueler uit te leggen.
 
-# Stap 6: broadcastadres berekenen
+# Stap 6: wildcardmasker berekenen
+Het wilcardmasker is gelijkaardig aan het subnetmasker, maar het levert je niet het netwerkgedeelte van een IP-adres. Het levert je het hostgedeelte. Je verkrijgt het door een bitwise NOT toe te passen op het subnetmasker. Schrijf een functie, `netmask_to_wilcard_mask` met één parameter (het netmasker als lijst getallen) die je het wildcardmasker teruggeeft, ook als lijst getallen.
+
+# Stap 7: broadcastadres berekenen
 TODO
 
-# Stap 7: maximaal aantal hosts berekenen
-TODO
-
-# Stap 8: wildcardmasker berekenen
+# Stap 8: maximaal aantal hosts berekenen
 TODO
 
 # Alles samen
