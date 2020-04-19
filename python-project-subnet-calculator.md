@@ -86,10 +86,41 @@ Je krijgt het adres van het subnet door de bitwise AND van het hostadres en het 
 Het wilcardmasker is gelijkaardig aan het subnetmasker, maar het levert je niet het netwerkgedeelte van een IP-adres. Het levert je het hostgedeelte. Je verkrijgt het door een bitwise NOT toe te passen op het subnetmasker. Schrijf een functie, `netmask_to_wilcard_mask` met één parameter (het netmasker als lijst getallen) die je het wildcardmasker teruggeeft, ook als lijst getallen.
 
 # Stap 7: broadcastadres berekenen
-TODO
+Het broadcastadres krijg je door alle hostbits op 1 te zetten. Je beschikt al over het netwerkadres en het wildcardmasker. Het wildcardmasker is een adres met alle hostbits op 1 en met alle netwerkbits op 0. Dus je kan het broadcastadres krijgen via een bitwise OR van het netwerkadres en het wildcardmasker. Schrijf een functie, `get_broadcast_address`, met twee parameters `network_address` en `wildcard_mask` die dit doet en die het broadcastadres teruggeeft als een lijst getallen.
 
 # Stap 8: maximaal aantal hosts berekenen
-TODO
+Een subnet heeft een bepaald maximum aantal hosts. Dit kan je makkelijk afleiden uit de lengte van het netmasker: als die lengte `L` is, is het maximum aantal hosts "2 tot de macht L, min 2". De "min 2" komt pas op het einde, omdat er één adres opzij wordt gehouden voor broadcast en één voor het netwerkadres zelf.
+
+Schrijf een functie, `prefix_length_to_max_hosts` die als parameter een lengte van een subnetmasker heeft (voorgesteld als getal) en als resultaat het maximum aantal hosts geeft (ook als getal).
 
 # Alles samen
-TODO
+Zorg eerst dat al bovenstaande functies werken. Je kan tussendoor al checken via de knop. De oefening als geheel zal wel geweigerd worden, maar als je een fout krijgt in stap 5 weet je bijvoorbeeld al dat stap 1 tot 4 in orde zijn.
+
+Zorg ten slotte dat iemand je bestand kan uitvoeren en volgende interactie kan krijgen:
+
+```text
+Wat is het IP-adres?
+> 192.168.0.191
+Wat is het subnetmasker?
+> 255.255.255.0
+IP-adres en subnetmasker zijn geldig.
+De lengte van het subnetmasker is 24.
+Het adres van het subnet is 192.168.0.0.
+Het wildcardmasker is 0.0.0.255.
+Het broadcastadres is 192.168.0.255.
+Het maximaal aantal hosts op dit subnet is 254.
+```
+
+Als een van de ingevoerde waarden niet geldig is, wordt het script stopgezet na de controle. Gebruik hiervoor `sys.exit(0)`.
+
+```text
+Wat is het IP-adres?
+> 1920.1680.0.1910
+Wat is het subnetmasker?
+> 255.255.255.0
+IP-adres en/of subnetmasker is ongeldig.
+```
+
+.. warning::
+
+   Hier volgt nog een automatische controle. Let er op dat de berichten exact getoond worden zoals in de voorbeeldinteractie (met dezelfde leestekens, spaties,...).
