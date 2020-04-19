@@ -78,12 +78,16 @@ In de vorige stap heb je de binaire voorstelling van het netmasker berekend. Er 
 # Stap 5: adres van het subnet berekenen
 Je krijgt het adres van het subnet door de bitwise AND van het hostadres en het netmasker te berekenen. Als je het hostadres en het netmasker voorstelt als lijsten van telkens 4 getallen (zoals wij dat doen), mag je de bitwise AND van het eerste getal uit de ene lijst en het eerste getal uit de andere lijst nemen, gevolgd door de bitwise AND van het tweede getal uit de ene lijst en de bitwise AND van het tweede getal uit de andere lijst, enzovoort. Schrijf een functie, `apply_network_mask`, met twee parameters `host_address` en `netmask` die dit doet en het adres van het netwerk teruggeeft als een lijst getallen.
 
-.. warning::
+.. important::
 
-   Ik voorzie nog een filmpje om deze stappen iets visueler uit te leggen.
+   Er wordt heel gelijkaardige code getoond in het filmpje rond bitwise operatoren.
 
 # Stap 6: wildcardmasker berekenen
-Het wilcardmasker is gelijkaardig aan het subnetmasker, maar het levert je niet het netwerkgedeelte van een IP-adres. Het levert je het hostgedeelte. Je verkrijgt het door een bitwise NOT toe te passen op het subnetmasker. Schrijf een functie, `netmask_to_wilcard_mask` met één parameter (het netmasker als lijst getallen) die je het wildcardmasker teruggeeft, ook als lijst getallen.
+Het wilcardmasker is gelijkaardig aan het subnetmasker, maar het levert je niet het netwerkgedeelte van een IP-adres. Het levert je het hostgedeelte. Je verkrijgt het in principe door een bitwise NOT toe te passen op het subnetmasker.
+
+Herinner je echter dat de bitwise NOT die Python voorziet bepaalde complicaties met zich meebrengt. Daarom converteer je hier beter de bitstring voor het netmasker zelf tot een bitstring voor het wildcardmasker (zoals voorgedaan in het filmpje op die pagina).
+
+Schrijf een functie, `netmask_to_wilcard_mask` met één parameter (het netmasker als lijst getallen) die je het wildcardmasker teruggeeft, ook als lijst getallen.
 
 # Stap 7: broadcastadres berekenen
 Het broadcastadres krijg je door alle hostbits op 1 te zetten. Je beschikt al over het netwerkadres en het wildcardmasker. Het wildcardmasker is een adres met alle hostbits op 1 en met alle netwerkbits op 0. Dus je kan het broadcastadres krijgen via een bitwise OR van het netwerkadres en het wildcardmasker. Schrijf een functie, `get_broadcast_address`, met twee parameters `network_address` en `wildcard_mask` die dit doet en die het broadcastadres teruggeeft als een lijst getallen.
