@@ -24,7 +24,7 @@ Het idee is net hetzelfde als bij bitwise AND, maar een bit is 1 in het resultaa
 ![bitwise or]({% pagerepo bitwise-or.png %})
 
 ## Bitwise NOT
-Een bitwise NOT keert de waarde van elke bit om. Dus bijvoorbeeld 11000000 in het binair (192 in het decimaal) wordt dan 00111111 in het binair (63 in het decimaal).
+TODO
 
 ## Oefening
 {% instructions %}
