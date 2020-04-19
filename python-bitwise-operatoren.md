@@ -24,7 +24,9 @@ Het idee is net hetzelfde als bij bitwise AND, maar een bit is 1 in het resultaa
 ![bitwise or]({% pagerepo bitwise-or.png %})
 
 ## Bitwise NOT
-TODO
+De bitwise NOT van Python bespreken we voorlopig niet, omdat hij een heleboel extra technische bagage vraagt om uit te leggen. De klassieke uitleg van een bitwise NOT is dat hij 0-bits verandert in 1-bits en omgekeerd. Omwille van hoe Python getallen intern voorstelt en aan de buitenwereld toont, is het effect hiervan nogal ondoorzichtig.
+
+Als we toch een "klassieke" bitwise NOT nodig hebben, kunnen we hem zelf nabootsen door in de stringvoorstelling alle 1-bits in 0-bits te veranderen en omgekeerd.
 
 ## Oefening
 {% instructions %}
