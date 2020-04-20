@@ -17,7 +17,7 @@ Schrijf hier een hulpfunctie, `ask_for_number_sequence`, met één parameter, `m
 - Ze leest in wat de gebruiker intypt als antwoord. Hier wordt verwacht dat de gebruiker een reeks getallen intypt, gescheiden door punten.
 - Ze splitst de ingetypte tekst in een lijst met onderdelen, vertaalt deze onderdelen van tekst naar getallen en geeft de lijst van vertaalde onderdelen terug.
 
-Nu kan je een IPv4-hostadres vragen via `ask_for_number_sequence(message)`. Volgende interactie zou mogelijk moeten zijn in de REPL:
+Nu kan je een IPv4-hostadres vragen via `ask_for_number_sequence(message)`. Volgende interactie zou mogelijk moeten zijn in de REPL (nadat je dit script hebt geïmporteerd, wat bijvoorbeeld kan als je de REPL opstart in de map waar het script staat):
 
 ```python
 >>> subnetcalculator.ask_for_number_sequence("Wat is het IP-adres?")
