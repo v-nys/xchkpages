@@ -1,5 +1,8 @@
 # Format strings voor weergave in binair
 
+## Filmpje
+[![Filmpje binaire weergave getallen]({% pagerepo youtube.png %})](https://www.youtube.com/watch?v=W4z-2SNs94g)
+
 ## Basis
 Een manier om getallen binair weer te geven is met format strings. De syntax hiervoor is simpel: gebruik `b` als format specifier.
 
