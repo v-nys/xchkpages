@@ -4,7 +4,7 @@
 Gebruik de kennis die je intussen hebt om een lijst met absolute paden van files in een directory terug te geven.
 
 ## Aanpak
-- Schrijf een functie `get_files_in_directory` met één argument. Dit zal de directory zijn waaruit we files willen halen.
+- Schrijf een functie `get_files_in_directory` met één argument. Dit zal de directory zijn waaruit we files willen halen, ingevuld als absoluut pad.
 - Maak in die functie een variabele aan die een lege lijst bevat.
 - Doorloop (met `os.listdir` en een `for`) alle entries in de directory die je wil uitlezen.
   - In de `for` bepaal je eerst het absolute pad van de file in kwestie. Doe dit opnieuw met `os.path.join` tussen de directory en de filenaam.
