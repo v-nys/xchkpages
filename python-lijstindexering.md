@@ -1,4 +1,8 @@
 # Lijstindexering basis
+
+## Filmpje
+[![Filmpje lijstindexering]({% pagerepo youtube.png %})](https://youtu.be/cgDplOesEAk)
+
 Lijsten in Python zijn reeksen elementen. Als je een element uit een lijst wil halen, schrijf je die lijst (of iets dat die lijst oplevert, zoals een variabele), gevolgd door rechte haken, gevolgd door een **index**, dus een nummer van het element (of iets dat een getal oplevert wanneer je het uitrekent, bijvoorbeeld `2 + 1`).
 
 Bijvoorbeeld:
