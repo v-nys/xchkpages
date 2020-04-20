@@ -48,6 +48,12 @@ In alle andere gevallen geeft de hulpfunctie `False` terug.
    Je kan hiervoor terugkijken naar de oefening waarbij je gecontroleerd hebt of alle getallen bytes zijn (Aha: een IP-adres controleren). In die oefening werd niet gekeken of de lijst exact 4 elementen bevat, dus dat moet je nog controleren. Gebruik hiervoor `len`, zoals uitgelegd in het deeltje rond indexering van lijsten.
 
 ## Van een netmasker
+
+### Filmpje
+[![Filmpje controle netmasker]({% pagerepo youtube.png %})](https://youtu.be/Ml6iqWRw9u8)
+
+### Uitleg in tekst
+
 Een netmasker is geldig als het bestaat uit een doorlopende reeks 1-bits gevolgd door een doorlopende reeks 0-bits. We zullen voor het gemak toestaan dat een netmasker 32 1-bits of 32 0-bits telt (al heeft dat geen zin in het echt).
 
 De makkelijkste manier om dit te checken is via de binaire voorstelling. Schrijf een hulpfunctie, `is_valid_netmask`, met één parameter, `numberlist`. Deze functie doet volgende zaken:
@@ -60,10 +66,6 @@ De makkelijkste manier om dit te checken is via de binaire voorstelling. Schrijf
 - ze doorloopt alle symbolen in `binary_netmask` en zet `checking_ones` op `False` zodra ze een 0 tegenkomt
 - indien ze een 1 tegenkomt terwijl `checking_ones` al op `False` staat, geeft ze aan dat het geen geldig netmasker is
 - als alle symbolen doorlopen zijn en er was geen reden om te beslissen dat het geen geldig netmasker is, is het een geldig netmasker en kan je `True` teruggeven
-
-.. warning::
-
-   Ik voorzie nog een filmpje om deze stappen iets visueler uit te leggen.
 
 # Stap 4: aantal 1-bits tellen
 In de vorige stap heb je de binaire voorstelling van het netmasker berekend. Er zijn meerdere manieren om aan het aantal 1-bits te raken, maar we houden het op een simpele aanpak:
@@ -83,6 +85,11 @@ Je krijgt het adres van het subnet door de bitwise AND van het hostadres en het 
    Er wordt heel gelijkaardige code getoond in het filmpje rond bitwise operatoren.
 
 # Stap 6: wildcardmasker berekenen
+
+## Filmpje
+[![Filmpje implementatie wildcardmasker]({% pagerepo youtube.png %})](https://youtu.be/Ek2P9Nz_WUE)
+
+## Uitleg in tekst
 Het wilcardmasker is gelijkaardig aan het subnetmasker, maar het levert je niet het netwerkgedeelte van een IP-adres. Het levert je het hostgedeelte. Je verkrijgt het in principe door een bitwise NOT toe te passen op het subnetmasker.
 
 Herinner je echter dat de bitwise NOT die Python voorziet bepaalde complicaties met zich meebrengt. Daarom converteer je hier beter de bitstring voor het netmasker zelf tot een bitstring voor het wildcardmasker (zoals voorgedaan in het filmpje op die pagina).
