@@ -134,4 +134,4 @@ IP-adres en/of subnetmasker is ongeldig.
 
 .. warning::
 
-   Hier volgt nog een automatische controle. Let er op dat de berichten exact getoond worden zoals in de voorbeeldinteractie (met dezelfde leestekens, spaties,...).
+   Hier volgt nog een automatische controle. **Momenteel wordt elke inzending geweigerd, dus het heeft geen zin de knop te gebruiken.** Volg wel al zo goed mogelijk de naamgeving en voorbeeldinteractie. Dan zal je project makkelijker een automatische controle doorstaan wanneer die er is.
