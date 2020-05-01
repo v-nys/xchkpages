@@ -1,4 +1,7 @@
 # De `while` lus
+
+## Filmpje
+[![Filmpje while lus](https://i9.ytimg.com/vi/E3yfJn9CpeU/mq1.jpg?sqp=CMS_7fMF&rs=AOn4CLAa7892ZDHLLqp_ZChcjsEYt1xipw)](https://youtu.be/8BbD_XQK-Rs)
 De `while` lus in Python is bijna hetzelfde als het `if`-statement. Het belangrijke verschil is dat, eens het geïndenteerde gedeelte van een `while`-lus is afgewerkt, de test opnieuw wordt uitgevoerd en de lus mogelijk herhaald wordt.
 
 Bijvoorbeeld, om tot 10 te tellen op het scherm:
