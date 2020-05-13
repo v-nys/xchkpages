@@ -67,6 +67,21 @@ De makkelijkste manier om dit te checken is via de binaire voorstelling. Schrijf
 - indien ze een 1 tegenkomt terwijl `checking_ones` al op `False` staat, geeft ze aan dat het geen geldig netmasker is
 - als alle symbolen doorlopen zijn en er was geen reden om te beslissen dat het geen geldig netmasker is, is het een geldig netmasker en kan je `True` teruggeven
 
+Je krijgt volgende code om van te vertrekken:
+
+```python
+def is_valid_netmask(numberlist):
+    # ZELF DOEN: False antwoorden als numberlist niet exact 4 elementen bevat
+    # ZELF DOEN: binaire voorstelling met 8 symbolen van elke byte bepalen en allemaal aan elkaar plakken
+    # ZELF DOEN: noem deze binaire voorstelling binary_netmask
+    checking_ones = True
+    for symbol in binary_netmask:
+        if checking_ones and # ZELF doen: "als we een 0 tegenkomen, zijn we geen 1'tjes meer aan het controleren"
+	else if # ZELF doen: "als we een 1 tegenkomen, is het netmasker ongeldig"
+    # als alle symbolen afgewerkt zijn, zijn we geen return False tegengekomen
+    return True
+```
+
 # Stap 4: aantal 1-bits tellen
 In de vorige stap heb je de binaire voorstelling van het netmasker berekend. Er zijn meerdere manieren om aan het aantal 1-bits te raken, maar we houden het op een simpele aanpak:
 
