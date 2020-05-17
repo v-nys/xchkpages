@@ -112,7 +112,7 @@ Herinner je echter dat de bitwise NOT die Python voorziet bepaalde complicaties 
 Schrijf een functie, `netmask_to_wilcard_mask` met één parameter (het netmasker als lijst getallen) die je het wildcardmasker teruggeeft, ook als lijst getallen.
 
 # Stap 7: broadcastadres berekenen
-Het broadcastadres krijg je door alle hostbits op 1 te zetten. Je beschikt al over het netwerkadres en het wildcardmasker. Het wildcardmasker is een adres met alle hostbits op 1 en met alle netwerkbits op 0. Dus je kan het broadcastadres krijgen via een bitwise OR van het netwerkadres en het wildcardmasker. Schrijf een functie, `get_broadcast_address`, met twee parameters `network_address` en `wildcard_mask` die dit doet en die het broadcastadres teruggeeft als een lijst getallen.
+Het broadcastadres krijg je door alle hostbits op 1 te zetten. Je beschikt al over het netwerkadres en het wildcardmasker. Het wildcardmasker is een adres met alle hostbits op 1 en met alle netwerkbits op 0. Dus je kan het broadcastadres krijgen via een bitwise OR van het netwerkadres en het wildcardmasker. Schrijf een functie, `get_broadcast_address`, met twee parameters `network_address` en `wildcard_mask` (beide lijsten getallen) die dit doet en die het broadcastadres teruggeeft als een lijst getallen.
 
 # Stap 8: maximaal aantal hosts berekenen
 Een subnet heeft een bepaald maximum aantal hosts. Dit kan je makkelijk afleiden uit de lengte van het netmasker: als die lengte `L` is, is het maximum aantal hosts "2 tot de macht L, min 2". De "min 2" komt pas op het einde, omdat er één adres opzij wordt gehouden voor broadcast en één voor het netwerkadres zelf.
