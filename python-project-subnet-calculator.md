@@ -77,7 +77,7 @@ def is_valid_netmask(numberlist):
     checking_ones = True
     for symbol in binary_netmask:
         if checking_ones and # ZELF doen: "als we een 0 tegenkomen, zijn we geen 1'tjes meer aan het controleren"
-	else if # ZELF doen: "als we een 1 tegenkomen, is het netmasker ongeldig"
+        elif # ZELF doen: "als we een 1 tegenkomen, is het netmasker ongeldig"
     # als alle symbolen afgewerkt zijn, zijn we geen return False tegengekomen
     return True
 ```
