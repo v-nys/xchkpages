@@ -93,7 +93,7 @@ In de vorige stap heb je de binaire voorstelling van het netmasker berekend. Er 
 - wanneer de `for`-lus afgelopen is, geeft ze de waarde van `counter` als antwoord
 
 # Stap 5: adres van het subnet berekenen
-Je krijgt het adres van het subnet door de bitwise AND van het hostadres en het netmasker te berekenen. Als je het hostadres en het netmasker voorstelt als lijsten van telkens 4 getallen (zoals wij dat doen), mag je de bitwise AND van het eerste getal uit de ene lijst en het eerste getal uit de andere lijst nemen, gevolgd door de bitwise AND van het tweede getal uit de ene lijst en de bitwise AND van het tweede getal uit de andere lijst, enzovoort. Schrijf een functie, `apply_network_mask`, met twee parameters `host_address` en `netmask` die dit doet en het adres van het netwerk teruggeeft als een lijst getallen.
+Je krijgt het adres van het subnet door de bitwise AND van het hostadres en het netmasker te berekenen. Als je het hostadres en het netmasker voorstelt als lijsten van telkens 4 getallen (zoals wij dat doen), mag je de bitwise AND van het eerste getal uit de ene lijst en het eerste getal uit de andere lijst nemen, gevolgd door de bitwise AND van het tweede getal uit de ene lijst en de bitwise AND van het tweede getal uit de andere lijst, enzovoort. Schrijf een functie, `apply_network_mask`, met twee parameters `host_address` en `netmask` (beide lijsten getallen) die dit doet en het adres van het netwerk teruggeeft als een lijst getallen.
 
 .. important::
 
