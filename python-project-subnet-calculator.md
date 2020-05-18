@@ -149,4 +149,6 @@ IP-adres en/of subnetmasker is ongeldig.
 
 .. warning::
 
-   Hier volgt nog een automatische controle. **Momenteel wordt elke inzending geweigerd, dus het heeft geen zin de knop te gebruiken.** Volg wel al zo goed mogelijk de naamgeving en voorbeeldinteractie. Dan zal je project makkelijker een automatische controle doorstaan wanneer die er is.
+   De automatische controle zal je project nooit volledig aanvaarden. Ze kan alleen zeggen dat er zeker iets niet in orde is, maar ze kan niet zeggen dat alles perfect is. Als je project **niet uitdrukkelijk geweigerd** wordt, weet je wel dat je vrij goed zit.
+
+{% instructions %}
