@@ -115,9 +115,9 @@ Schrijf een functie, `netmask_to_wilcard_mask` met één parameter (het netmaske
 Het broadcastadres krijg je door alle hostbits op 1 te zetten. Je beschikt al over het netwerkadres en het wildcardmasker. Het wildcardmasker is een adres met alle hostbits op 1 en met alle netwerkbits op 0. Dus je kan het broadcastadres krijgen via een bitwise OR van het netwerkadres en het wildcardmasker. Schrijf een functie, `get_broadcast_address`, met twee parameters `network_address` en `wildcard_mask` (beide lijsten getallen) die dit doet en die het broadcastadres teruggeeft als een lijst getallen.
 
 # Stap 8: maximaal aantal hosts berekenen
-Een subnet heeft een bepaald maximum aantal hosts. Dit kan je makkelijk afleiden uit de lengte van het netmasker: als die lengte `L` is, is het maximum aantal hosts "2 tot de macht L, min 2". De "min 2" komt pas op het einde, omdat er één adres opzij wordt gehouden voor broadcast en één voor het netwerkadres zelf.
+Een subnet heeft een bepaald maximum aantal hosts. Dit kan je makkelijk afleiden uit de lengte van het hostgedeelte: als die lengte `L` is, is het maximum aantal hosts "2 tot de macht L, min 2". De "min 2" komt pas op het einde, omdat er één adres opzij wordt gehouden voor broadcast en één voor het netwerkadres zelf.
 
-Schrijf een functie, `prefix_length_to_max_hosts` die als parameter een lengte van een subnetmasker heeft (voorgesteld als getal) en als resultaat het maximum aantal hosts geeft (ook als getal).
+Schrijf een functie, `prefix_length_to_max_hosts` die als parameter een lengte van een subnetmasker heeft (voorgesteld als getal) en als resultaat het maximum aantal hosts geeft (ook als getal). De lengte van het hostgedeelte is 32 - de lengte van het netmasker.
 
 # Alles samen
 Zorg eerst dat al bovenstaande functies werken. Je kan tussendoor al checken via de knop. De oefening als geheel zal wel geweigerd worden, maar als je een fout krijgt in stap 5 weet je bijvoorbeeld al dat stap 1 tot 4 in orde zijn.
