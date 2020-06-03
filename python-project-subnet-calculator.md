@@ -120,7 +120,14 @@ Een subnet heeft een bepaald maximum aantal hosts. Dit kan je makkelijk afleiden
 Schrijf een functie, `prefix_length_to_max_hosts` die als parameter een lengte van een subnetmasker heeft (voorgesteld als getal) en als resultaat het maximum aantal hosts geeft (ook als getal). De lengte van het hostgedeelte is 32 - de lengte van het netmasker.
 
 # Alles samen
-Zorg eerst dat al bovenstaande functies werken. Je kan tussendoor al checken via de knop. De oefening als geheel zal wel geweigerd worden, maar als je een fout krijgt in stap 5 weet je bijvoorbeeld al dat stap 1 tot 4 in orde zijn.
+Zorg eerst dat al bovenstaande functies werken. Je kan tussendoor je functies al checken via de knop.
+
+.. warning::
+
+   Zet alle code die een zichtbaar effect heeft bij het uitvoeren van je script **achteraan** in het script. Zet deze code in een `if`-blok dat begint met `if __name__ == '__main__':`
+   Dit is nodig omdat de testen geen gebruikersinteractie kunnen controleren.
+
+De oefening als geheel zal nooit volledig aanvaard worden, maar als je een fout krijgt in stap 5 weet je bijvoorbeeld al dat stap 1 tot 4 in orde zijn.
 
 Zorg ten slotte dat iemand je bestand kan uitvoeren en volgende interactie kan krijgen:
 
