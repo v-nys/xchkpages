@@ -125,7 +125,9 @@ Zorg eerst dat al bovenstaande functies werken. Je kan tussendoor je functies al
 .. warning::
 
    Zet alle code die een zichtbaar effect heeft bij het uitvoeren van je script **achteraan** in het script. Zet deze code in een `if`-blok dat begint met `if __name__ == '__main__':`
-   Dit is nodig omdat de testen geen gebruikersinteractie kunnen controleren.
+   Dit is nodig omdat de testen geen gebruikersinteractie kunnen controleren. Zie afbeelding hieronder.
+
+![subnetter]({% pagerepo uitleg_tests_subnetter.png %})
 
 De oefening als geheel zal nooit volledig aanvaard worden, maar als je een fout krijgt in stap 5 weet je bijvoorbeeld al dat stap 1 tot 4 in orde zijn.
 
