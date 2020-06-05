@@ -7,7 +7,11 @@ Het nadeel van packages is dat er soms **conflicten** optreden. Het kan bijvoorb
 
 Om dat op te lossen, maken we gebruik van een **virtuele omgeving** of **virtualenv**. Dit is een geïsoleerde omgeving waarin we packages kunnen installeren. We kunnen zo veel omgevingen maken als we willen. Zo lang we `A` en `C` niet **samen** nodig hebben, kunnen we dus een omgeving maken met daarin `A` en `B` (versie 1) en daarnaast een tweede omgeving met `C` en `B` (versie 2).
 
-Om te kunnen werken met virtuele omgevingen, installeren we ons eerste package: `virtualenv`. Werken met virtuele omgevingen is soms wat onhandig, dus we installeren meteen een tweede package om alles wat makkelijker te maken: `virtualenvwrapper` (of de Windows-variant, `virtualenvwrapper-win`).
+Om te kunnen werken met virtuele omgevingen, installeren we ons eerste package: `virtualenv`. Werken met virtuele omgevingen is soms wat onhandig, dus we installeren meteen een tweede package om alles wat makkelijker te maken: `virtualenvwrapper` (of een Windows-variant, `virtualenvwrapper-win` of `virtualenvwrapper-powershell`).
+
+.. warning::
+
+   `virtualenvwrapper-win` is bedoeld om te gebruiken in `cmd.exe`, dus de "ouderwetse" Windows command line. Niet in PowerShell!
 
 ## gebruik
 Om een nieuwe virtuele omgeving te maken, typ je  (niet in Python, maar in je gewone shell omgeving, bv. `cmd` of je OSX-terminal) `mkvirtualenv` gevolgd door de naam die je wenst te gebruiken voor je omgeving. Bijvoorbeeld: `mkvirtualenv osscriptingenv`.
